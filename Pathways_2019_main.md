@@ -16,9 +16,23 @@ Welcome to Pathways and Network Analysis of -Omics Data 2019.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/Pathways_2019_schedule).
 
-The full course notes are available as a [single PDF]().  
+**CLASS MATERIALS:** You can download the printed course manual [here]().  
 
 ***
+
+# Pre-Workshop Materials and Laptop Setup Instructions <a id="preworkshop"></a>
+
+## Laptop Setup Instructions
+
+Instructions to setup your laptop can be found [here](https://bioinformaticsdotca.github.io/Pathways_laptop_setup_instructions).
+
+## Pre-workshop Tutorials
+
+Pre-readings and pre-work can be found here [here](https://bioinformaticsdotca.github.io/Pathways_2019_prework).  
+It is in your best interest to complete these before the workshop.
+
+***
+
 
 # Class photo
 
