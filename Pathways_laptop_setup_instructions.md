@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /laptop_setup_instructions
+permalink: /Pathways_laptop_setup_instructions
 title: Pathways
 header1: Workshop Pages for Students
 header2: Pathways and Network Analysis of -Omics Data 2019
