@@ -31,7 +31,7 @@ home: https://bioinformaticsdotca.github.io/Pathways_2019
   * [Expression data analysis with Reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)  
 
 
-## Do these before coming to the workshop:
+## Do these exercises before coming to the workshop:
 
 1) [Sequencing Terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
 
