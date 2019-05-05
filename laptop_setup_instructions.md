@@ -8,7 +8,7 @@ image: /site_images/CBW_pathway_icon.jpg
 home: https://bioinformaticsdotca.github.io/Pathways_2019
 ---
 
-## Install these before coming to the workshop:
+## Install these tools on your laptop before coming to the workshop:
 
 1) A robust text editor.   
 
@@ -24,33 +24,34 @@ home: https://bioinformaticsdotca.github.io/Pathways_2019
 
 3) A robust internet browser such as Firefox or Safari (Internet Explorer and Chrome are not recommended because of Java issues).
 
-4) Java -The visualization program that we will be using (IGV) requires Java. Check if you have Java installed: https://www.java.com/verify/ and download Java if you do not have it installed (Java 8).
+4) Java -The visualization program that we will be using (IGV) requires Java. Check if you have Java installed: https://www.java.com/verify/ and download Java if you do not have it installed (You need Java 8. Do NOT install Java 10).
 
 5) A PDF viewer (Adobe Acrobat or equivalent).
 
-6) Install [Cytoscape 3.6.1](http://chianti.ucsd.edu/cytoscape-3.6.1/).  
+6) Install [Cytoscape 3.7.1](https://cytoscape.org/download-platforms.html).  
 
 Choose the version corresponding to your operating system (OS, Windows or UNIX) 
 Cytoscape requires Java8: check your version at  https://www.java.com/verify/ and download Java8 if you do not have it installed. Contact your system administrator if you have trouble with Java installation. 
 
 7) Within the Cytoscape program, install the following Cytoscape apps.  
 
-From the menu bar, select ‘Apps’ , ‘Manage Apps’.
+From the menu bar, select ‘Apps’, then ‘App Manager’.
  
-Within all apps, search for the following and install:  
+Within 'all apps', search for the following and install:  
 
- * EnrichmentMap 
+ * EnrichmentMap (3.2.0)
  * EnrichmentMap Pipeline Collection (it will install ClusterMaker2, WordCloud and AutoAnnotate) 
- * GeneMania 
+ * GeneMANIA (3.5.0)
  * Iregulon  
  * ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
+ * stringApp
  
  
-8) Install the data set within GeneMANIA.
+8) Install the data set within GeneMANIA app.
 
-Select GeneMania from Apps Manager and Choose Another Data Set.  
-From the list of available data sets, select the most recent (2017-03-17 / 17 March 2017) and under ‘Include only these networks’: select ‘all’. Click on ‘Download’.  
-An ‘Install Window’ will pop-up. Select H.Sapiens Human. Click on ‘Install’.  
+From the menu bar, select 'Apps', hover over 'GeneMANIA', then select 'Choose Another Data Set'.  
+From the list of available data sets, select the most recent (2017-07-13/13 July 2017) and under ‘Include only these networks:' select ‘all’. Click on ‘Download’.  
+An ‘Install Data' window will pop-up. Select H.Sapiens Human (2589 MB). Click on ‘Install’.  
 This requires time and a good network connection to download completely, so be patient (around 15mins).  
 
   
@@ -60,7 +61,7 @@ Go to the [GSEA page](http://www.broadinstitute.org/gsea/index.jsp)
 Register  
 Login  
 In menu, choose Downloads  
-Go to the javaGSEA Java Jar file section and download the gsea2-2.2.4.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
+Go to the javaGSEA Java Jar file section and download the gsea-3.0.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
  
 To run GSEA during the workshop, you must use the command line. You will need to open a terminal and execute the install commands. Since we will need to run GSEA this same way each time, it will be a good idea to save this information on how to run GSEA.
  
@@ -70,7 +71,7 @@ To run GSEA during the workshop, you must use the command line. You will need to
 * At the prompt, type the command in your terminal window and hit enter:
 
 ```
-java -Xmx2G -jar ~/Documents/gsea2-2.2.4.jar
+java -Xmx4G -jar ~/Documents/gsea-3.0.jar
 ```
 
 **PC/Windows Computer** 
@@ -80,7 +81,5 @@ java -Xmx2G -jar ~/Documents/gsea2-2.2.4.jar
 
 ```
 cd Documents
-java -Xmx2G -jar gsea2-2.2.4.jar
+java -Xmx4G -jar gsea-3.0.jar
 ```
-
-Please note that these instructions may change before the workshop. 
