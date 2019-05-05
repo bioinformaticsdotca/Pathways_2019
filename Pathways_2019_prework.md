@@ -8,23 +8,27 @@ image: /site_images/CBW_pathway_icon.jpg
 home: https://bioinformaticsdotca.github.io/Pathways_2019
 ---
 
+***
+
 ## Read these papers before coming to the workshop:
 
-* [iRegulon: From a Gene List to a Gene Regulatory Network Using Large Motif and Track Collections](http://www.ncbi.nlm.nih.gov/pubmed/25058159)
+  * [Pathway enrichment analysis and visualization of omics data using g:Profiler, GSEA, Cytoscape and EnrichmentMap](https://www.nature.com/articles/s41596-018-0103-9)
   
-* [The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
+  * [iRegulon: From a Gene List to a Gene Regulatory Network Using Large Motif and Track Collections](http://www.ncbi.nlm.nih.gov/pubmed/25058159)
   
-* [GeneMANIA Prediction Server 2013 Update](http://www.ncbi.nlm.nih.gov/pubmed/23794635)
+  * [The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
   
-* [How to visually interpret biological data using networks](http://www.ncbi.nlm.nih.gov/pubmed/19816451)
+  * [GeneMANIA Prediction Server 2013 Update](http://www.ncbi.nlm.nih.gov/pubmed/23794635)
   
-* [g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments](http://www.ncbi.nlm.nih.gov/pubmed/17478515)
+  * [How to visually interpret biological data using networks](http://www.ncbi.nlm.nih.gov/pubmed/19816451)
   
-* [g:Profiler--a web server for functional interpretation of gene lists (2011 update)](http://www.ncbi.nlm.nih.gov/pubmed/21646343)
+  * [g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments](http://www.ncbi.nlm.nih.gov/pubmed/17478515)
   
-* [Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles](http://www.ncbi.nlm.nih.gov/pubmed/16199517)
+  * [g:Profiler--a web server for functional interpretation of gene lists (2011 update)](http://www.ncbi.nlm.nih.gov/pubmed/21646343)
   
-* [Expression data analysis with reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)  
+  * [Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles](http://www.ncbi.nlm.nih.gov/pubmed/16199517)
+  
+  * [Expression data analysis with Reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)  
 
 
 ## Do these before coming to the workshop:
@@ -39,4 +43,4 @@ home: https://bioinformaticsdotca.github.io/Pathways_2019
 
 * Filtering and Editing in Cytoscape 3
 
-
+***
