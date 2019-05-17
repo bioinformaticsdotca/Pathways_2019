@@ -76,9 +76,9 @@ Coming soon.
  
  *<font color="#827e9c">Veronique Voisin</font>*  
  
-[Lab practical part 1](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM_GProfiler)   
+[Lab practical part 1 (g:Profiler)](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM_GProfiler)   
 
-[Lab practical part 2](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM-GSEA)  
+[Lab practical part 2 (GSEA)](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM_GSEA)  
 
 
 # Day 2 <a id="day2"></a>
@@ -129,7 +129,7 @@ Coming soon.
 
 [Assignment link](http://bioinformaticsdotca.github.io/Pathways_2019_IA) 
 
-[gProfiler file](https://github.com/bioinformaticsdotca/Pathways_2019/IntegratedAssignment/hsapiens.pathways.NAME.gmt)
+[g:Profiler file](https://github.com/bioinformaticsdotca/Pathways_2019/IntegratedAssignment/hsapiens.pathways.NAME.gmt)
 
 [Assignment answers link](http://bioinformaticsdotca.github.io/Pathways_2019_IA_Answers) 
 
