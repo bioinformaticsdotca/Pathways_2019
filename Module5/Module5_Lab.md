@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /CSHL_2019_Module16_lab
-title: HT-Bio
+permalink: /Pathways_2019_Module5_Lab-GeneManiaWeb
+title: Pathways
 header1: Workshop Pages for Students
-header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 16
-image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/CSHL_2019
-description: HT-Bio Module 17 Lab
+header2: Pathways and Network Analysis of -Omics Data 2019
+image: /site_images/CBW_pathway_icon.jpg
+home: https://bioinformaticsdotca.github.io/Pathways_2019
+description: Pathways Module 5 Lab - GeneMANIA Web
 author: Quaid Morris and Veronique Voisin
 modified: June 26th, 2018
 ---
