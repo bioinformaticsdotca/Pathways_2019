@@ -129,7 +129,7 @@ Coming soon.
 
 [Assignment link](http://bioinformaticsdotca.github.io/Pathways_2019_IA) 
 
-[g:Profiler file](https://github.com/bioinformaticsdotca/Pathways_2019/IntegratedAssignment/hsapiens.pathways.NAME.gmt)
+[g:Profiler file](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/IntegratedAssignment/hsapiens.pathways.NAME.gmt)
 
 [Assignment answers link](http://bioinformaticsdotca.github.io/Pathways_2019_IA_Answers) 
 
