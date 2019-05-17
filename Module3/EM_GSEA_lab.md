@@ -1,12 +1,11 @@
 ---
 layout: tutorial_page
-permalink: /CSHL_2019_Module15_lab_1
-title: HT-Bio
+permalink: /Pathways_2019_Module3_Lab-NetworkViz
+title: Pathways
 header1: Workshop Pages for Students
-header2: High-throughput Biology - From Sequence to Networks 2019 - Lab 15 - Part 1
-image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/CSHL_2019
-description: HT-Bio Module 15 Lab - Part 1
+header2: Pathways and Network Analysis of -Omics Data 2019
+image: /site_images/CBW_pathway_icon.jpg
+home: https://bioinformaticsdotca.github.io/Pathways_2019
 author: Veronique Voisin
 modified: June 27th, 2018
 ---
