@@ -60,9 +60,9 @@ Coming soon.
   
   [Introduction to practical lab](https://drive.google.com/a/bioinformatics.ca/file/d/12o0HZf5Ak7-Y0aG_geebd1CRYG6x15be/view?usp=sharing)  
 
-  [Lab practical part 1 (g:Profiler)](http://bioinformaticsdotca.github.io/pathways_2018_module2_lab_1)    
+  [Lab practical part 1 (g:Profiler)](http://bioinformaticsdotca.github.io/Pathways_2019_Module2_Lab-GProfiler)    
 
-  [Lab practical part 2 (GSEA)](http://bioinformaticsdotca.github.io/pathways_2018_module2_lab_2)    
+  [Lab practical part 2 (GSEA)](http://bioinformaticsdotca.github.io/Pathways_2019_Module2_Lab-GSEA)    
   
 ## Module 3: Network Visualization and Analysis with Cytoscape 
 
@@ -76,9 +76,9 @@ Coming soon.
  
  *<font color="#827e9c">Veronique Voisin</font>*  
  
-[Lab practical part 1](http://bioinformaticsdotca.github.io/pathways_2018_module3_lab_1)   
+[Lab practical part 1](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM_GProfiler)   
 
-[Lab practical part 2](http://bioinformaticsdotca.github.io/pathways_2018_module3_lab_2)  
+[Lab practical part 2](http://bioinformaticsdotca.github.io/Pathways_2019_Module3_Lab-EM-GSEA)  
 
 
 # Day 2 <a id="day2"></a>
@@ -99,7 +99,9 @@ Coming soon.
   
   [Lecture]()
   
-  [Lab practical](http://bioinformaticsdotca.github.io/pathways_2018_module5)  
+  [Lab practical - Cytoscape](http://bioinformaticsdotca.github.io/Pathways_2019_Module5_Lab-GeneMania)   
+  
+  [Lab practical - Web](http://bioinformaticsdotca.github.io/Pathways_2019_Module5_Lab-GeneManiaWeb)  
   
 
 # Day 3 <a id="day3"></a>
@@ -112,7 +114,7 @@ Coming soon.
   
   [Lab lecture]()  
   
-  [Lab practical](http://bioinformaticsdotca.github.io/pathways_2018_module6) 
+  [Lab practical](http://bioinformaticsdotca.github.io/Pathways_2019_Module6_Lab) 
 
 
 ## Final Thoughts  
@@ -121,15 +123,15 @@ Coming soon.
 
 [Lecture]()  
 
-[Tools and workflows](http://bioinformaticsdotca.github.io/pathways_2018_tools_and_workflows)  
+[Tools and workflows]()  
 
 ## Integrated Assignment
 
-[Assignment link](http://bioinformaticsdotca.github.io/pathways_2018_IA) 
+[Assignment link](http://bioinformaticsdotca.github.io/Pathways_2019_IA) 
 
-[gProfiler file](https://github.com/bioinformaticsdotca/Pathways_2017/raw/master/integrated_assignment_1/hsapiens.pathways.NAME.gmt)  
+[gProfiler file](https://github.com/bioinformaticsdotca/Pathways_2019/IntegratedAssignment/hsapiens.pathways.NAME.gmt)
 
-[Assignment answers link](http://bioinformaticsdotca.github.io/pathways_2018_IA_answers) 
+[Assignment answers link](http://bioinformaticsdotca.github.io/Pathways_2019_IA_Answers) 
 
 ## Additional tutorials <a id="additionaltutorials"></a>
 
