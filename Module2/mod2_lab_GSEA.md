@@ -1,11 +1,11 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module2_lab_2
+permalink: /Pathways_2019_Module2_Lab
 title: Pathways
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 2
+header2: Pathways and Network Analysis of -Omics Data 2019
 image: /site_images/CBW_pathway_icon.jpg
-home: https://bioinformaticsdotca.github.io/pathways_2018
+home: https://bioinformaticsdotca.github.io/Pathways_2019
 description: Pathways Module 2 Lab
 author: Veronique Voisin
 modified: June 25th, 2017
