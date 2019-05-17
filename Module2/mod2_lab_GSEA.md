@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /Pathways_2019_Module2_Lab
+permalink: /Pathways_2019_Module2_Lab-GSEA
 title: Pathways
 header1: Workshop Pages for Students
 header2: Pathways and Network Analysis of -Omics Data 2019
