@@ -1,12 +1,12 @@
 ---
 layout: tutorial_page
-permalink: /CSHL_2019_IA_Answers_Day7
-title: HT-Bio
+permalink: /Pathways_2019_IA_Answers
+title: Pathways
 header1: Workshop Pages for Students
-header2: High-throughput Biology - From Sequence to Networks 2019 - Integrated Assignment Day 7
-image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/CSHL_2019
-description: HT-Bio Integrated Assignment Answers Day 7
+header2: Pathways and Network Analysis of -Omics Data 2019
+image: /site_images/CBW_pathway_icon.jpg
+home: https://bioinformaticsdotca.github.io/Pathways_2019
+description: Pathways Integrated Assignment Answers
 author: Veronique Voisin
 modified: June 27th, 2018
 ---
