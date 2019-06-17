@@ -16,7 +16,7 @@ author: Veronique Voisin
 
 ## Introduction
 
-The practical lab contains 2 exercisea. This exercise uses [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost) to perform gene-set enrichment analysis. 
+The practical lab contains 2 exercises. These exercises use [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost) to perform gene-set enrichment analysis. 
 
 ### Goal of the exercise
 
@@ -89,9 +89,7 @@ TIP: if g:Profiler does not return any results uncheck the *No electronic GO ann
 
 ### Step 4
 
-Run g:Profiler.
-
-4a. Click on the *Run query* button to run g:Profiler. 
+Click on the *Run query* button to run g:Profiler. 
 
 TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
 
@@ -102,18 +100,25 @@ TIP: If after clicking on *Run query* button the analysis completes but there is
 
 Explore the results. 
 
-*Results*
+Step5a:
 After the query has run, the results are displayed at the bottom of the page, below the input parameters.
-By default, the "Results" tab is selected. A global graph displays gene-sets that passed the significance threshold of 0.05 for the 2 gene-set databases that we have selected GO Biological Process "GO:BP" and  Reactome "REAC". Numbers in parentheses are indicating the number of gene-sets that passed that threshold.
+By default, the "Results" tab is selected. A global graph displays gene-sets that passed the significance threshold of 0.05 for the 2 gene-set databases that we have selected GO Biological Process "GO:BP" and  Reactome "REAC". Numbers in parentheses are indicating the number of gene-sets that passed the threshold.
 
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp5.png?raw=true" alt="workflow" width="750" />
 
 
- *Detailed Results*
+Step5b:
 Click on the "Detailed Results" and observe the results.
-Two tables are displayed. Each row of the table contains the name of the gene-set, its ID, the FDR value under the column, the enrichment score calculated by the formula -log10(padj) and finally colored boxes are  indicating which genes from our gene list are included in the tested gene-set.
-The first table displays the gene-sets significantly enriched at FDR 0.05 for the GO:BP database. The second table displays the results corresponding to the Reactome database.
+Two tables are displayed. Each row of the table contains the name of the gene-set, its ID, the FDR value under the column, the enrichment score calculated by the formula -log10(padj) and finally colored boxes are  indicating which genes from our gene list are included in the tested gene-set (expand the legend tab for details about color boxes).
+
+The first table displays the gene-sets significantly enriched at FDR 0.05 for the GO:BP database.
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp6.png?raw=true" alt="workflow" width="750" />
+
+The second table displays the results corresponding to the Reactome database.
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp7.png?raw=true" alt="workflow" width="750" />
 
 ### Step 6: Expand the stats tab
  Expand the *stats* tab by clicking on the double arrow located at the right of the tab.
