@@ -36,7 +36,7 @@ g:Profiler performs a gene-set enrichment analysis using a hypergeometric test (
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](linktofile).
+*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
 
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
@@ -52,7 +52,7 @@ Open the g:Profiler website at [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost
 
 ### Step 2
 
-Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](linktofile)) into the Query field in top-left corner of the screen. 
+Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt)) into the Query field in top-left corner of the screen. 
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp1.png?raw=true" alt="workflow" width="750" />
 
