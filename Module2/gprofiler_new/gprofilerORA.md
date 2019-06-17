@@ -127,6 +127,9 @@ The second table displays the results corresponding to the Reactome database.
 
  * Above the GO:BP result table, locate the slide bar that enables to select for the minimum and maximum number of genes in the tested gene-sets (Term size). 
  * Set the maximum *Term size* to 1000 and observe the results in the detailed stats panel:
+ 
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp8a.png?raw=true" alt="workflow" width="750" />
+
    * Without filtering term size, the top terms were GO terms containing that could contain 4000 or 5000 genes and that were located high in the GO hierarchy (parent term). 
    * With filtering the maximum term size to 1000, the top list contains pathways of larger interpretative values. However, please note that the adjusted pvalues was calculated using all gene-sets without size filtering.
 
