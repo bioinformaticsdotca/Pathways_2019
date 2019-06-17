@@ -49,8 +49,7 @@ Launch g:Profiler.
 
 1a. Open the g:Profiler website at [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost) in your web browser.
 
-![gp1](link)
-
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp1.png?raw=true" alt="workflow" width="750" />
 
 ### Step 2
 
@@ -72,7 +71,7 @@ Adjust parameters.
 
 TIP: if g:Profiler does not return any results increase the threshold (0.1, then 1) to check that g:Profiler is running successfully but there are simply no significant results for your query.
 
-![gp2](link)
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp2.png?raw=true" alt="workflow" width="750" />
 
 3b. Click on the *Data sources* tab (black rectangle) to expand it.
 
@@ -84,7 +83,7 @@ TIP: if g:Profiler does not return any results uncheck the *No electronic GO ann
 
 * In the *biological pathways* category, check *Reactome*.
 
-![gp3](link)
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp3.png?raw=true" alt="workflow" width="750" />
 
 
 ### Step 4
@@ -95,8 +94,7 @@ Run g:Profiler.
 
 TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
 
-![gp4](link)
-
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp4.png?raw=true" alt="workflow" width="750" />
 
 
 ### Step 5
@@ -107,7 +105,8 @@ Explore the results.
 After the query has run, the results are displayed at the bottom of the page, below the input parameters.
 By default, the "Results" tab is selected. A global graph displays gene-sets that passed the significance threshold of 0.05 for the 2 gene-set databases that we have selected GO Biological Process "GO:BP" and  Reactome "REAC". Numbers in parentheses are indicating the number of gene-sets that passed that threshold.
 
-![gp5](link)
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp5.png?raw=true" alt="workflow" width="750" />
 
 
  *Detailed Results*
