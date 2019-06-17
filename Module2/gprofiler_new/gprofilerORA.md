@@ -171,7 +171,7 @@ The term *extracellular matrix organization* is the most significant gene-set (=
 ### Step 8 
 
 8a. Optional but recommended: Download the pathway database files.
-  * Go to the top of the page and expand the "Data sources" tab. Click on the 'name.gmt' link located at bottom of this tab. This is a zipped folder named *gprofiler_hsapiens.name.zip* containing several pathway database gmt files. 
+  * Go to the top of the page and expand the "Data sources" tab. Click on the 'name.gmt' link located at bottom of this tab. It will download a zipped folder named *gprofiler_hsapiens.name.zip* containing several pathway database gmt files. 
 
 
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp12.png?raw=true" alt="workflow" width="750" />
