@@ -137,10 +137,10 @@ The second table displays the results corresponding to the Reactome database.
  
  * 7a.  In the *Detailed Results* panel, select "GEM" .  It will save the results in a text file in the "Generic Enrichment Map" format that we will use to visualize using Cytoscape.
 
-   * select term size to 10000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer. 
+   * select max term size to 10000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer. 
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp13.png?raw=true" alt="workflow" width="750" />
  
-   * select term size to 1000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer.
+   * select max term size to 1000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer.
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp14.png?raw=true" alt="workflow" width="750" />
   
  * 7b:  Open one file that you saved using Microsoft Office Excel or in an equivalent software.
@@ -171,24 +171,24 @@ The term *extracellular matrix organization* is the most significant gene-set (=
 ### Step 8 
 
 8a. Optional but recommended: Download the pathway database files.
-  * Go to the top of the page and expand the "Data sources" tab. Click on the 'name.gmt' link located at bottom of this tab. This is a zipped folder containing several gmt files. 
+  * Go to the top of the page and expand the "Data sources" tab. Click on the 'name.gmt' link located at bottom of this tab. This is a zipped folder named *gprofiler_hsapiens.name.zip* containing several pathway database gmt files. 
 
 
-![Download Results](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA24.png?raw=true)
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp12.png?raw=true" alt="workflow" width="750" />
 
 8b: concatenate the GO:BP and Reactome gmt files:
 
  * option 1: manually if you are not familiar with unix commands
-  * open a text editor such a Notepad or equivalent
-  * open hsapiens.GO:BP.name.gm using the text editor
-  * open gmt hsapiens.REAC.name.gmt using the text editor
-  *  copy-pasting all the rows from REAC file together with all the rows in GO:BP file and save it as hsapiens.pathways.name.gmt .
+   * open a text editor such a Notepad or equivalent
+   * open hsapiens.GO:BP.name.gmt using the text editor
+   * open gmt hsapiens.REAC.name.gmt using the text editor
+   * copy-paste all the rows from REAC file together with all the rows in GO:BP file and save it as hsapiens.pathways.name.gmt .
 
 
  * option 2: using the cat command if you are familiar with unix commands
-  * open your terminal window
-  * cd to the unzipped gprofiler_hsapiens.name folder
-  * type the following command: 
+   * open your terminal window
+   * cd to the unzipped gprofiler_hsapiens.name folder
+   * type the following command: 
      * cat hsapiens.GO:BP.name.gmt hsapiens.REAC.name.gmt > hsapiens.pathways.name.gmt
      
 
