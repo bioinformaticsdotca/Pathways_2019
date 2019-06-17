@@ -37,7 +37,7 @@ g:Profiler performs a gene-set enrichment analysis using a hypergeometric test (
 Before starting this exercise, download the required files:
 
 *  [Supplementary_Table1_Cancer_drivers.txt](linktofile).
-*  [Baderlab.gmt](linktofile).
+
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
 ## Start the exercise: 
@@ -185,6 +185,18 @@ Note: you will be using this optional hsapiens.pathways.name.gmt file in Cytosca
 
 
 ### Exercise 2: Load and use a custom .gmt file and run the query
+
+For this exercise, our goal is to copy and paste the list of genes into g:Profiler, upload a custom gmt file, adjust some parameters (e.g selecting the pathway databases), run the query and explore the results.
+
+Before starting this exercise, download the required files:
+
+*  [Supplementary_Table1_Cancer_drivers.txt](linktofile).
+*  [Baderlab.gmt](linktofile).
+
+We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
+
+STEPS:
+
  * [Baderlab.gmt](linktofile).
  * Repeat step 1 to 3a from Exercise 1 (go back to exercise 1 to get detailed instructions):
    * Step 2a :
