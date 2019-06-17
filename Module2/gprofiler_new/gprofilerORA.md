@@ -137,7 +137,13 @@ The second table displays the results corresponding to the Reactome database.
  
  * 7a.  In the *Detailed Results* panel, select "GEM" .  It will save the results in a text file in the "Generic Enrichment Map" format that we will use to visualize using Cytoscape.
 
- * 7b:  Open the file that you saved using Microsoft Office Excel or in an equivalent software.
+   * select term size to 10000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer. 
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp13.png?raw=true" alt="workflow" width="750" />
+ 
+  * select term size to 1000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer.
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp14.png?raw=true" alt="workflow" width="750" />
+  
+ * 7b:  Open one file that you saved using Microsoft Office Excel or in an equivalent software.
 
 Observe the results included in this file:
 
