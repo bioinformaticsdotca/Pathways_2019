@@ -211,7 +211,7 @@ Before starting this exercise, download the required files:
 
 *  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
 
-*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_Filtered2.gmt).
+*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
 
 
 
@@ -227,7 +227,7 @@ STEPS:
    * Step 3: Click on the *Data sources* tab (black rectangle) to expand it.
     * Unselect all choices by clicking the "clear all" button.
    * Step 4:  Click on the *Custom GMT* tab (black rectangle) to expand it.
-    * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_Filtered2.gmt).
+    * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
     * Once uploaded successfully, the name of the file is displayed in the "File name used" box. 
    * Step 5: Click on *Run  query* .
    * Step 6: Explore the detailed results
