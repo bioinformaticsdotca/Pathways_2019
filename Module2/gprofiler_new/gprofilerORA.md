@@ -204,8 +204,9 @@ For this exercise, our goal is to copy and paste the list of genes into g:Profil
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](linktofile).
-*  [Baderlab.gmt](linktofile).
+*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
+*  [Baderlab.gmt](
+(https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_filtered.gmt)
 
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
