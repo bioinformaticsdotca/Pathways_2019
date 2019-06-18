@@ -162,8 +162,6 @@ Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is c
 
 
 The term *positive regulation of activin receptor signaling pathway* is the most significant gene-set (=the lowest FDR value).  Many gene-sets from the top of this list are related to each other and have genes in common. 
-#############################
-
 
 ###################################################
 
