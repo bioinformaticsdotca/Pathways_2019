@@ -197,7 +197,15 @@ Note: you will be using this optional hsapiens.pathways.name.gmt file in Cytosca
 
 ### Exercise 2: Load and use a custom .gmt file and run the query
 
-For this exercise, our goal is to copy and paste the list of genes into g:Profiler, upload a custom gmt file, adjust some parameters (e.g selecting the pathway databases), run the query and explore the results.
+For this exercise, our goal is to copy and paste the list of genes into g:Profiler, upload a custom gmt file, adjust some parameters (e.g selecting the pathway databases), run the query and explore the results. Uploading a custom signature enables us to use alternative pathway data source not available in g:Profiler.
+
+We are going to use as custom file a gmt file that contains a database of pathway gene sets used for pathway
+enrichment analysis in the standard GMT format  downloaded from http://baderlab.org/GeneSets and updated monthly.
+This file contains pathways downloaded on 1 July 2017 from eight data sources: GO, Reactome,
+Panther, NetPath, NCI, MSigDB curated gene sets (C2 collection, excluding Reactome and
+KEGG), MSigDB Hallmark (H collection)81 and HumanCyc59.A GMT file is a text file in which each line
+represents a gene set for a single pathway. Each line includes a pathway ID, a name and the list of
+associated genes in a tab-separated format.
 
 Before starting this exercise, download the required files:
 
