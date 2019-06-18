@@ -153,16 +153,15 @@ Significance of the overlap (adj pvalue)
 
 Genes included in each gene-set
 
-########################
 
 Question: Which term has the best corrected p-value?  Which genes in our list are included in this term? Observe that same genes can be present in several lines (pathways are related when they contain a lof of genes in common).
 
-Note: the p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning the the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the Enrichment Map. 
+Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the *generic format*. The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning the the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
+
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp15.png?raw=true" alt="workflow" width="750" />
 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module2_lab/img/gprofilertable.png?raw=true" alt="sesults" width="750" />
-
-The term *extracellular matrix organization* is the most significant gene-set (=the lowest FDR value).  Many gene-sets from the top of this list are related to each other and have genes in common. 
+The term *positive regulation of activin receptor signaling pathway* is the most significant gene-set (=the lowest FDR value).  Many gene-sets from the top of this list are related to each other and have genes in common. 
 #############################
 
 
