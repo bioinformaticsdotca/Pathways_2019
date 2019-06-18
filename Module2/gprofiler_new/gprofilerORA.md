@@ -205,7 +205,7 @@ This file contains pathways downloaded on 1 July 2017 from eight data sources: G
 Panther, NetPath, NCI, MSigDB curated gene sets (C2 collection, excluding Reactome and
 KEGG), MSigDB Hallmark (H collection)81 and HumanCyc59.A GMT file is a text file in which each line
 represents a gene set for a single pathway. Each line includes a pathway ID, a name and the list of
-associated genes in a tab-separated format.
+associated genes in a tab-separated format. This file has been filtered to exlclude gene-sets that contained more than 500 genes as these gene-sets are associated with more general terms.
 
 Before starting this exercise, download the required files:
 
@@ -225,14 +225,19 @@ STEPS:
    * Step 2b: Click on the *Advanced options* tab (black rectangle) to expand it.
     * Set *Significance threshold* to "Benjamini-Hochberg FDR".
    * Step 3: Click on the *Data sources* tab (black rectangle) to expand it.
-    * Unselect all choices by clicking the "clear all" button.
+    * **Unselect all choices by clicking the "clear all" button.**
    * Step 4:  Click on the *Custom GMT* tab (black rectangle) to expand it.
     * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
     * Once uploaded successfully, the name of the file is displayed in the "File name used" box. 
+    
+    <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp16.png?raw=true" alt="workflow" width="750" />
+   
    * Step 5: Click on *Run  query* .
+   
+   
    * Step 6: Explore the detailed results
    
-     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp16.png?raw=true" alt="workflow" width="750" />
+     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp17.png?raw=true" alt="workflow" width="750" />
    
    * Step 7: Save the file as GEM
 
