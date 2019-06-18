@@ -210,14 +210,15 @@ associated genes in a tab-separated format.
 Before starting this exercise, download the required files:
 
 *  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
-*  [Baderlab.gmt](
-(https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_filtered.gmt)
+
+*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_Filtered2.gmt).
+
+
 
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
 STEPS:
 
- * [Baderlab.gmt](linktofile).
  * Repeat step 1 to 3a from Exercise 1 (go back to exercise 1 to get detailed instructions):
    * Step 2a :
     * Copy and paste the gene list in the Query field
@@ -226,10 +227,13 @@ STEPS:
    * Step 3: Click on the *Data sources* tab (black rectangle) to expand it.
     * Unselect all choices by clicking the "clear all" button.
    * Step 4:  Click on the *Custom GMT* tab (black rectangle) to expand it.
-    * Drag in the box the Baderlab gmt file [Baderlab.gmt](linktofile).
+    * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_Filtered2.gmt).
     * Once uploaded successfully, the name of the file is displayed in the "File name used" box. 
    * Step 5: Click on *Run  query* .
    * Step 6: Explore the detailed results
+   
+     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp16.png?raw=true" alt="workflow" width="750" />
+   
    * Step 7: Save the file as GEM
 
 #################################################
