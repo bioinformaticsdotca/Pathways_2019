@@ -91,6 +91,10 @@ TIP: if g:Profiler does not return any results uncheck the *No electronic GO ann
 
 Click on the *Run query* button to run g:Profiler. 
 
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp3a.png?raw=true" alt="workflow" width="750" />
+
+Scroll down page to see results. 
+
 TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp4.png?raw=true" alt="workflow" width="750" />
@@ -125,6 +129,9 @@ The second table displays the results corresponding to the Reactome database.
 
 ### Step 6: Expand the stats tab
  Expand the *stats* tab by clicking on the double arrow located at the right of the tab.
+ 
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp7a.png?raw=true" alt="workflow" width="750" />
+ 
  It displays the gene set size (T), the size of our gene list (Q) , the number of genes that overlap between our gene list and the tested gene-set (TnQ) as well as the number of genes in the background (U). 
  
 
