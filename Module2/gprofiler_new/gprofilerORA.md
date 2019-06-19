@@ -25,7 +25,7 @@ Learn how to run *g:GOSt Functional profiling* from the g:Profiler website and e
 ### Data
 
 g:Profiler requires a list of genes, one per line, in a text file or spreadsheet,
-ready to copy and paste into a web page: for this, we use genes with frequent somatic SNVs identified in TCGA exome sequencing data of 3,200 tumors of 12 types6. The MuSiC cancer driver mutation detection software was used to find 127 cancer driver genes that displayed higher than expected mutation frequencies in cancer samples (Supplementary Table 1, which is derived from column B of Supplementary Table 4 in PMID:24132290) (https://www.nature.com/articles/nature12634). Genes are ranked in decreasing order of significance (FDR Q value) and mutation frequency (not shown).
+ready to copy and paste into a web page: for this, we use genes with frequent somatic SNVs identified in TCGA exome sequencing data of 3,200 tumors of 12 types6. The MuSiC cancer driver mutation detection software was used to find 127 cancer driver genes that displayed higher than expected mutation frequencies in cancer samples (Supplementary Table 1, which is derived from column B of Supplementary Table 4 in [Kandoth C. et al. ](https://www.ncbi.nlm.nih.gov/pubmed/24132290) ) (https://www.nature.com/articles/nature12634). Genes are ranked in decreasing order of significance (FDR Q value) and mutation frequency (not shown).
 
 
 ### Exercise 1
@@ -109,9 +109,12 @@ By default, the "Results" tab is selected. A global graph displays gene-sets tha
 
 
 Step5b:
-Click on the "Detailed Results" and observe the results.
-Two tables are displayed. Each row of the table contains the name of the gene-set, its ID, the FDR value under the column, the enrichment score calculated by the formula -log10(padj) and finally colored boxes are  indicating which genes from our gene list are included in the tested gene-set (expand the legend tab for details about color boxes).
-
+Click on "Detailed Results" to view the results in more depth. Two tables are displayed, one for each of the data sources selected. (If more than 2 data sources are selected there will be additional tables for each datasource) Each row of the table contains:
+ * **Term name** - gene-set name
+ * **Term ID** - gene-est identifier
+ * **Padj** - FDR value 
+ * **-log10(Padj)** - enrichment score calculated using the formula -log10(padj)
+ * variable number of gene columns (One for each gene in the query set) - If the gene is present in the current gene-set its cell is colored.  For any data source besides GO the cell is colored black if the gene is found in the gene-set.  For the GO data source cells are colored according to the annotation evidence code. Expand the legend tab for detailed coloring mapping of GO evidence codes.  
 The first table displays the gene-sets significantly enriched at FDR 0.05 for the GO:BP database.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp6.png?raw=true" alt="workflow" width="750" />
@@ -126,7 +129,7 @@ The second table displays the results corresponding to the Reactome database.
  
 
  * Above the GO:BP result table, locate the slide bar that enables to select for the minimum and maximum number of genes in the tested gene-sets (Term size). 
- * Set the maximum *Term size* to 1000 and observe the results in the detailed stats panel:
+ * Change the maximum *Term size* from 10000 to **1000** and observe the results in the detailed stats panel:
  
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp8a.png?raw=true" alt="workflow" width="750" />
 
@@ -137,10 +140,10 @@ The second table displays the results corresponding to the Reactome database.
  
  * 7a.  In the *Detailed Results* panel, select "GEM" .  It will save the results in a text file in the "Generic Enrichment Map" format that we will use to visualize using Cytoscape.
 
-   * select max term size to 10000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer. 
+   * select max term size to 10000 ( = no filtering by gene-set size) and click on the GEM button. A file is downloaded on your computer. 
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp13.png?raw=true" alt="workflow" width="750" />
  
-   * select max term size to 1000 ( = no filtering on gene-set size) and click on the GEM button. A file is downloaded on your computer.
+   * select max term size to 1000 ( = filter by gene-set size) and click on the GEM button. A file is downloaded on your computer.
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp14.png?raw=true" alt="workflow" width="750" />
   
  * 7b:  Open one file that you saved using Microsoft Office Excel or in an equivalent software.
@@ -156,7 +159,7 @@ Genes included in each gene-set
 
 Question: Which term has the best corrected p-value?  Which genes in our list are included in this term? Observe that same genes can be present in several lines (pathways are related when they contain a lof of genes in common).
 
-Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the *generic format*. The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning the the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
+Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the *generic format*. The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
 
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp15.png?raw=true" alt="workflow" width="750" />
 
