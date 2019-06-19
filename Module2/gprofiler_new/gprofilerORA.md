@@ -157,16 +157,16 @@ The second table displays the results corresponding to the Reactome database.
 
 Observe the results included in this file:
 
-Name of each gene-set
-
-Significance of the overlap (adj pvalue)
-
-Genes included in each gene-set
-
+ 1. Name of each gene-set
+ 1. Description of each gene-set
+ 1. significance of the overlap (pvalue)
+ 1. significance of the overlap (adjusted pvalue/qvalue)
+ 1. Phenotype
+ 1. Genes included in each gene-set
 
 Question: Which term has the best corrected p-value?  Which genes in our list are included in this term? Observe that same genes can be present in several lines (pathways are related when they contain a lof of genes in common).
 
-Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the *generic format*. The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
+Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the [*generic format*](https://enrichmentmap.readthedocs.io/en/latest/FileFormats.html#generic-results-files). The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
 
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp15.png?raw=true" alt="workflow" width="750" />
 
@@ -196,13 +196,14 @@ The term *positive regulation of activin receptor signaling pathway* is the most
    * open your terminal window
    * cd to the unzipped gprofiler_hsapiens.name folder
    * type the following command: 
-     * cat hsapiens.GO:BP.name.gmt hsapiens.REAC.name.gmt > hsapiens.pathways.name.gmt
-     
+   ```
+    cat hsapiens.GO:BP.name.gmt hsapiens.REAC.name.gmt > hsapiens.pathways.name.gmt
+   ``` 
 
 Note: you will be using this optional hsapiens.pathways.name.gmt file in Cytoscape EnrichmentMap.
      
 
-##########################################
+---
 
 
 ### Exercise 2: Load and use a custom .gmt file and run the query
