@@ -22,9 +22,8 @@ Reimand J, Isserlin R, Voisin V, Kucera M, Tannus-Lopes C, Rostamianfar A, Wadi 
 Warde-Farley D, Donaldson SL, Comes O, Zuberi K, Badrawi R, Chao P, Franz M, Grouios C, Kazi F, Lopes CT, Maitland A, Mostafavi S, Montojo J, Shao Q, Wright G, Bader GD, Morris Q<BR>
 [Nucleic Acids Res 2010 Jul 1;38 Suppl:W214-20](https://academic.oup.com/nar/article/38/suppl_2/W214/1126704) - [Available here as well](http://baderlab.org/Publications#GeneMANIA_original)
   
-  * ***GeneMANIA prediction server 2013 update***<BR>
-Zuberi K, Franz M, Rodriguez H, Montojo J, Lopes CT, Bader GD, Morris Q <BR>
-[Nucleic Acids Res 2013 Jul;41(Web Server issue):W115-22](https://academic.oup.com/nar/article/41/W1/W115/1114788) - [Available here as well](http://baderlab.org/Publications#GeneMANIA_2013)
+  * ***GeneMANIA update 2018***<BR>Franz M, Rodriguez H, Lopes C, Zuberi K, Montojo J, Bader GD, Morris Q<BR>
+[Nucleic Acids Res. 2018 Jun 15](https://academic.oup.com/nar/article/46/W1/W60/5038280) - [Available here as well](http://baderlab.org/Publications#GeneMANIA_2018)
   
   * ***How to visually interpret biological data using networks***<BR>
 Merico D, Gfeller D, Bader GD <BR>
@@ -32,7 +31,7 @@ Merico D, Gfeller D, Bader GD <BR>
   
   * ***g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments.***<BR>Reimand J, Kull M, Peterson H, Hansen J, Vilo J <BR> [Nucleic Acids Res. 2007 Jul;35](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1933153/)
   
-  * ***g:Profiler--a web server for functional interpretation of gene lists (2011 update)***<BR>Reimand J, Arak T, Vilo J<BR> [Nucleic Acids Res. 2011 Jul;39](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3125778/)
+  * ***g:Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update)***<BR>Raudvere U, Kolberg L, Kuzmin I, Arak T, Adler P, Peterson H, Vilo J<BR>[Nucleic Acids Res. 2019 May 8](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz369/5486750)
   
   * ***Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles***<BR>Subramanian A, Tamayo P, Mootha VK, Mukherjee S, Ebert BL, Gillette MA, Paulovich A, Pomeroy SL, Golub TR, Lander ES, Mesirov JP<BR>[Proc Natl Acad Sci U S A. 2005 Oct 25;102(43)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1239896/)
   
