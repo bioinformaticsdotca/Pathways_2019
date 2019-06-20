@@ -66,7 +66,7 @@ This requires time and a good network connection to download completely, so be p
  
  * In menu, in the javaGSEA Desktop Application section, changed *Launch with" to *4GBG (for 64 bit Java only)*  
  * Click on the *Launch* button. This is downloading a gsea icon. Save it on your computer. Double click on this icon to 
- open 
+ open GSEA.
  
   * Note 1: please try to lauch GSEA before the workshop (open).
   * Note 2: Most common issue with GSEA during the workshop is out of memory error because GSEA was launched with 1GB instead of 4 GB. Please make sure that you have downloaded the 4GB start icon as descrived above.
