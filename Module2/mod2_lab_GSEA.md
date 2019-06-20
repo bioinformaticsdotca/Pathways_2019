@@ -27,7 +27,7 @@ Learn how to run GSEA and explore the results.
 
 ### Data
 
-The data used in this exercise is gene expression (transcriptomics) obtained from high-throughput RNA sequencing. They correspond to Ovarian Serous Cystadenocarcinoma samples. This cohort was previously stratified into four distinct expression subtypes [PMID:21720365](http://www.ncbi.nlm.nih.gov/pubmed/21720365) and a subset of the immunoreactive and mesenchymal subtypes are compared to demonstrate the GSEA workflow.
+The data used in this exercise is gene expression (transcriptomics) obtained from high-throughput RNA sequencing of Ovarian Serous Cystadenocarcinoma samples. This cohort was previously stratified into four distinct expression subtypes [PMID:21720365](http://www.ncbi.nlm.nih.gov/pubmed/21720365) and a subset of the immunoreactive and mesenchymal subtypes are compared to demonstrate the GSEA workflow.
 
 #### How was the data processed?
 
@@ -35,11 +35,21 @@ Gene expression from the TCGA Ovarian serous cystadenocarcinoma RNASeq V2 cohort
 
 ### Introduction
 
-Our goal is to upload the 2 required files into GSEA, set up the parameters, run GSEA, open and explore the gene-set enrichment results. The 2 required files are a rank file (.rnk) and a pathway file (.gmt).
+The goal of this lab is to:
+  * upload the 2 required files into GSEA, 
+  * adjust relevant parameters, 
+  * run GSEA, 
+  * open and explore the gene-set enrichment results. 
+  
+The 2 required files are:
+  1. a rank file (.rnk) 
+  1. a pathway definition file (.gmt).
 
-To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was calculated from the edgeR differential expression results. A gene differentially expressed at a significant level (low pvalue close to 0) will be assigned with a high score. The sign of the logFC indicates if the gene has an expression which is higher in mesenchymal (logFC > 0, the score will have a + sign) or lower in mesenchymal (logFC < 0, the score will have a - sign). It is used to rank the genes from top up-regulated to top down-regulated (all genes have to be included). 
+#### Rank File
+To generate a rank file (.rnk),  a score (-log10(pvalue) * sign(logFC)) was calculated from the edgeR differential expression results. A gene that is significantly differentially expressed(i.e associated with a very small pvalue, close to 0) will be assigned a high score. The sign of the logFC indicates if the gene has an expression which is higher in mesenchymal (logFC > 0, the score will have a + sign) or lower in mesenchymal (logFC < 0, the score will have a - sign). It is used to rank the genes from top up-regulated to top down-regulated (all genes have to be included). 
 
-Tip: how to generate a rank file. /!\ The rank file is going to be provided for the lab, you don't need to generate it. 
+Tip: how to generate a rank file. 
+:exclamation:  The rank file is going to be provided for the lab, you don't need to generate it. 
 
 Calculation of the score
 
@@ -53,14 +63,14 @@ Generation of the rank file: select the gene names and score columns and save th
 
 ![generaterank](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/make_rank_file.png?raw=true)
 
-
+#### Pathway defintion file
 The second file that is needed for GSEA is the pathway database, a file with the .gmt extension. The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
 :exclamation: You don't need to perform this step for the exercise, the .gmt file will be given to you. 
 
 
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true)
 
-The .gmt is a tab delimited text which contains one gene-set per row. For each gene-set (row), the first 2 columns have to be the names of the gene-set and the other columns contain the list of genes included in the gene-set. It is possible to create a custom gene-set using Excel or R. 
+The .gmt is a tab delimited text file which contains one gene-set per row. For each gene-set (row), the first 2 columns contain the name and the description of the gene-set and the remaining columns contain the list of genes included in the gene-set. It is possible to create a custom gene-set using Excel or R. 
 
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gmt_format.png?raw=true)
 
