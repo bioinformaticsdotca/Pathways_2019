@@ -49,6 +49,7 @@ The 2 required files are:
 To generate a rank file (.rnk),  a score (-log10(pvalue) * sign(logFC)) was calculated from the edgeR differential expression results. A gene that is significantly differentially expressed(i.e associated with a very small pvalue, close to 0) will be assigned a high score. The sign of the logFC indicates if the gene has an expression which is higher in mesenchymal (logFC > 0, the score will have a + sign) or lower in mesenchymal (logFC < 0, the score will have a - sign). It is used to rank the genes from top up-regulated to top down-regulated (all genes have to be included). 
 
 Tip: how to generate a rank file. 
+
 :exclamation:  The rank file is going to be provided for the lab, you don't need to generate it. 
 
 Calculation of the score
@@ -65,6 +66,7 @@ Generation of the rank file: select the gene names and score columns and save th
 
 #### Pathway defintion file
 The second file that is needed for GSEA is the pathway database, a file with the .gmt extension. The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
+
 :exclamation: You don't need to perform this step for the exercise, the .gmt file will be given to you. 
 
 
@@ -82,8 +84,8 @@ GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov
 
 Before starting this exercise, download the 2 required files:
 
-* [Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt)
-* [MesenchymalvsImmunoreactive_edger_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/MesenchymalvsImmunoreactive_edger_ranks.rnk)
+* [Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt](./Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt)
+* [MesenchymalvsImmunoreactive_edger_ranks.rnk](./MesenchymalvsImmunoreactive_edger_ranks.rnk)
 
 
 ### Step1.
