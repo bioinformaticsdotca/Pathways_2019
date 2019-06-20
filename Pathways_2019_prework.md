@@ -35,12 +35,8 @@ home: https://bioinformaticsdotca.github.io/Pathways_2019
 
 1) [Sequencing Terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
 
-2)  **Cytoscape Preparation tutorials**: Complete the [introductory tutorial to Cytoscape](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape3)
-
-* Introduction to Cytoscape3 - User Interface
-
-* Introduction to Cytoscape3 - Welcome Screen
-
-* Filtering and Editing in Cytoscape 3
+2)  **Cytoscape Preparation tutorials**: Complete the [introductory tutorial to Cytoscape](http://tutorials.cytoscape.org)
+  * [Tour of Cytoscape](https://cytoscape.org/cytoscape-tutorials/protocols/tour-of-cytoscape/#/)
+  * [Basic Data Visualization](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/)
 
 ***
