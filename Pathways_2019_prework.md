@@ -41,9 +41,9 @@ Merico D, Gfeller D, Bader GD <BR>
 
   1. [Sequencing Terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
 
-  1.  **Cytoscape Preparation tutorials**: Complete the [introductory tutorial to Cytoscape](http://tutorials.cytoscape.org)
+  1.  **Cytoscape Preparation tutorials**: From [introductory tutorial to Cytoscape](http://tutorials.cytoscape.org), complete:
   
-  * [Tour of Cytoscape](https://cytoscape.org/cytoscape-tutorials/protocols/tour-of-cytoscape/#/)
-  * [Basic Data Visualization](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/)
+  * 1. [Tour of Cytoscape](https://cytoscape.org/cytoscape-tutorials/protocols/tour-of-cytoscape/#/)
+  * 2. [Basic Data Visualization](https://cytoscape.org/cytoscape-tutorials/protocols/basic-data-visualization/#/)
 
 ***
