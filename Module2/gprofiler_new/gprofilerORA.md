@@ -273,14 +273,16 @@ Note:
 **mirTarBase** is a database that holds experimentally validated information about genes that are targetted by miRNAs. We include all the organisms that are covered by mirTarBase.
 
 
-**Option 2**: Re-run the g:Profiler using the **ordered** query checked. This will run the minimum hypergeometric test. g:Profiler then performs incremental enrichment analysis with increasingly larger numbers of genes starting from the top of the list.When this option is checked, **it assumes that the genes were preordered by significance with the most significant gene at the top of the list**. Compare the results between "ordered" and non ordered query.
+**Option 2**:
+Re-run the g:Profiler using the **ordered** query checked. This will run the minimum hypergeometric test. g:Profiler then performs incremental enrichment analysis with increasingly larger numbers of genes starting from the top of the list.When this option is checked, **it assumes that the genes were preordered by significance with the most significant gene at the top of the list**. Compare the results between "ordered" and non ordered query.
 
 Note: for this practical lab, the genes were ordered by the number of mutations found in these genes for all samples. For example, TP53, a highly mutated genes is listed at the top. 
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp20.png?raw=true" alt="workflow" width="750" />
 
 
-**Option 3** : Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results? 
+**Option 3** :
+Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results? 
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp19.png?raw=true" alt="workflow" width="750" />
 
