@@ -262,7 +262,7 @@ Here below are 3 optional steps that are covering several options offered by g:P
 USe the same gene list as for exercise 1 and modify paramters listed in the 3 optional steps. Observe the results. 
 
 **Optional 1**:   
-Option1: If time permits, play with input parameters, e.g. add *TRANSFAC * and *miRTarBase* databases, rerun the query and explore the new results.
+If time permits, play with input parameters, e.g. add *TRANSFAC * and *miRTarBase* databases, rerun the query and explore the new results.
  
  
  
@@ -281,7 +281,7 @@ Note: for this practical lab, the genes were ordered by the number of mutations 
 
 **Option 3** : Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results? 
 
-Note you can get detailed information about these methodes at https://biit.cs.ut.ee/gprofiler/page/docs
+Note you can get detailed information about these methods at https://biit.cs.ut.ee/gprofiler/page/docs
 in the section *Significance threshold*. 
 
 
