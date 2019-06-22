@@ -153,7 +153,7 @@ Create an enrichment map without a gmt file to compare the results with Exercise
  
  Explore the results:
  
- 
+ <img 
  src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />
  
 
