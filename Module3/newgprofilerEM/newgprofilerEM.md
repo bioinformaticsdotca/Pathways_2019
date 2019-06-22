@@ -137,26 +137,19 @@ On the map, a node that has both green and blue color is a gene-sets that was pr
 
 # Explore Detailed results 
 
- * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Zoom in to be able to read the labels and navigate the network using the bird eye view.
+ * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Make sure you have unselected "Publication Ready" in the EnrichmentMap control panel. Zoom in to be able to read the labels and navigate the network using the bird eye view (blue rectangle).
 
  * Select a node and visualize the *Table Panel*
    * Click on a node
-
-   * For this example the node *"MESENCHYME DEVELOPMENT"* has been selected. Tip: you can type it in the search bar, quotes are important.
+   
+   * For this example the node *"Signaling by Notch"* has been selected. Tip: you can type it in the search bar, quotes are important.
+   
+   
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem8.png?raw=true" alt="workflow" width="750" />
 
 When the node is selected, it is highlighted in <font color="yellow">yellow</font>.
+In table panel, we can see the genes included in the gene-set. A green colored box indicates that the gene is in the gene-set(pathway) and in our gene list. A gray colored box indicated that the gene is in the gene-set but not in our gene list.
 
-3b. In Table Panel:
-
-*	Click on the Sort Column on "Ranks Data Set1"
-
-*	Set Expressions to *Row Norm*
-
-* Set Compress to -None- (tip: select the field and use the keyboard arrows up to select it)
-
-You can now visualize the genes in the MESENCHYME DEVELOPMENT pathway that are higher expressed in the mesenchymal samples when compared to the immunoreactive samples. 
-
- <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMgprofilerheatmap.png?raw=true"  width="750" />
 
 ## Exercise 1b
 
@@ -164,6 +157,9 @@ Create an enrichment map without a gmt file to compare the results with Exercise
 
  * Go to Control Panel and select the EnrichmentMap tab. 
  * Click on the "+" sign to re-open the *Create Enrichment Map* window.
+ 
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem7.png?raw=true" alt="workflow" width="750" />
+   
  * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
  * Locate the GMT field and delete the file name , leaving it blank.
  * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
@@ -188,12 +184,6 @@ On the map, a node that has both green and blue color is a gene-sets that was pr
  <img 
  src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />
  
-
-
-
-
-
-
 
 #
 
