@@ -117,10 +117,14 @@ gProfiler_hsapiens_gs250.gem.txt.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem2.png?raw=true" alt="workflow" width="750" />
 
-Explore the results:
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3.png?raw=true" alt="workflow" width="750" />
- 
+
+
+Explore the results:
+
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />'
+
 
 ## Step 3
 
