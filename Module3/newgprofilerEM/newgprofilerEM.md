@@ -128,16 +128,35 @@ In the EnrichmentMap control panel located at the left:
  * set Chart Data o *Color by Data Set*
  * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />'
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3a.png?raw=true" alt="workflow" width="750" />
 
 On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
 
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />'
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem6.png?raw=true" alt="workflow" width="750" />
 
 
 ## Exercise 1b
 
-Create an enrichment map without a gmt file .
+Create an enrichment map without a gmt file to compare the results with Exercise 1a.
+
+ * Go to Control Panel and select the EnrichmentMap tab. 
+ * Click on the "+" sign to re-open the *Create Enrichment Map* window.
+ * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
+ * Locate the GMT field and delete the file name , leaving it blank.
+ * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
+ * Locate the GMT field and delete the file name , leaving it blank.
+ * Use same parameters as in exercise 1a: FDR q-value cutoff of 0.001 and Connectivity to sparse.
+ * Click on *Build*
+ 
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem5.png?raw=true" alt="workflow" width="750" />
+ 
+ 
+ Explore the results:
+ 
+ 
+ src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />
+ 
+
 
 
 
