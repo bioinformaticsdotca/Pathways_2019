@@ -54,7 +54,7 @@ The goal of this exercise is to learn how to:
 
 To start the lab practical section, first create a gprofiler_files directoty on your computer and download it the files below.
 
-Five files are needed to create the enrichment maps for this exercise (please download these files on your computer):
+Five files are needed for this exercise (please download these files on your computer):
 
 Enrichment result 1: [gProfiler_hsapiens_GEM1.txt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/gProfiler_hsapiens_GEM1.txt) 
 In g:Profiler, the parameters that we used were: GO_BP no electronic annotation, Reactome, Benjamini-HochBerg FDR 0.05. 
