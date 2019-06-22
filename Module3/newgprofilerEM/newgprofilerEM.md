@@ -18,7 +18,7 @@ By Veronique Voisin
 
 ## Goal of the exercise:
 
-**Create an EnrichmentMap and navigate through the network**
+**Create an enrichment map and navigate through the network**
 
 During this exercise, you will learn how to create an EnrichmentMap from gene-set enrichment results. The enrichment tool chosen for this exercise is g:Profiler but an enrichment map can be created from various gene-set tools using the generic format or the more specific GSEA or BinGO interface.
 
