@@ -212,9 +212,9 @@ For this exercise, our goal is to copy and paste the list of genes into g:Profil
 
 We are going to use as custom file a gmt file that contains a database of pathway gene sets used for pathway
 enrichment analysis in the standard GMT format  downloaded from http://baderlab.org/GeneSets and updated monthly.
-This file contains pathways downloaded on 1 July 2017 from eight data sources: GO, Reactome,
+This file contains pathways from eight data sources: GO, Reactome,
 Panther, NetPath, NCI, MSigDB curated gene sets (C2 collection, excluding Reactome and
-KEGG), MSigDB Hallmark (H collection)81 and HumanCyc59.A GMT file is a text file in which each line
+KEGG), MSigDB Hallmark (H collection) and HumanCyc.A GMT file is a text file in which each line
 represents a gene set for a single pathway. Each line includes a pathway ID, a name and the list of
 associated genes in a tab-separated format. This file has been filtered to exlclude gene-sets that contained more than 500 genes as these gene-sets are associated with more general terms.
 
@@ -253,18 +253,37 @@ STEPS:
    * Step 7: Save the file as GEM
 
 #################################################
-### Optional steps
+### Optional steps ####
 
-Optional:   
+Here below are 3 optional steps that are covering several options offered by g:Profiler: option to test different databases, to take the order of the gene list into account and the choice between differenttypes of multiple hypothesis correction methods.
+
+USe the same gene list as for exercise 1 and modify paramters listed in the 3 optional steps. Observe the results. 
+
+**Optional 1**:   
 Option1: If time permits, play with input parameters, e.g. add *TRANSFAC * and *miRTarBase* databases, rerun the query and explore the new results.
+ 
+ 
+ 
+ 
+Note:
+**Transfac**  putative transcription factor binding sites (TFBSs) from TRANSFAC database are retrieved into g:GOSt through a special prediction pipeline. First, TFBSs are found by matching TRANSFAC position specific matrices using the program Match on range +/-1kb from TSS as provided by APPRIS (Annotating principal splice isoforms) via Ensembl biomart. For genes with multiple primary TSS annotations we selected one with most TF matches. The matching range for C. elegans, D. melanogaster and S. cerevisiae is 1kb upstream from ATG (translation start site). A cut-off value to minimize the number of false positive matches (provided by TRANSFAC) is then applied to remove spurious motifs. Remaining matches are split into two inclusive groups based on the amount of matches, i.e TFBSs that have at least 1 match are classified as match class 0 and TFBSs that have at least 2 matches per gene are classified as match class 1.
+**mirTarBase** is a database that holds experimentally validated information about genes that are targetted by miRNAs. We include all the organisms that are covered by mirTarBase.
 
-Option2: Re-run the g:Profiler using the "ordered" query checked. This will run the minimum hypergeometric test. When this option is checked, it assumes that the genes were preordered by significance with the most significant gene at the top of the list. Compare the results between "ordered" and non ordered query.
 
-Option3: Re-run g:Profiler and select Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results?
+**Option 2**: Re-run the g:Profiler using the "ordered" query checked. This will run the minimum hypergeometric test. g:Profiler then performs incremental enrichment analysis with increasingly larger numbers of genes starting from the top of the list.When this option is checked, **it assumes that the genes were preordered by significance with the most significant gene at the top of the list**. Compare the results between "ordered" and non ordered query.
 
-TIP:Instead of using the g:Profiler website g:profiler can be run directly from R see supplemental info at https://biit.cs.ut.ee/gprofiler/page/r
+Note: for this practical lab, the genes were ordered by the number of mutations found in these genes for all samples. For example, TP53, a highly mutated genes is listed at the top. 
 
 
+
+
+**Option 3** : Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results? 
+
+Note you can get detailed information about these methodes at https://biit.cs.ut.ee/gprofiler/page/docs
+in the section *Significance threshold*. 
+
+
+TIP:Instead of using the g:Profiler website g:profiler can be run directly from R or python see g:Profiler document for more info at https://biit.cs.ut.ee/gprofiler/page/r
 
 
 
