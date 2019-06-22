@@ -31,20 +31,31 @@ Pathway enrichment analysis has been run using g:Profiler and the results have b
 
 ## EnrichmentMap
 
-*	A <font color="red">red circle</font> (node) is a pathway specific of the mesenchymal type.
+*	A circle (node) is a genee-set (pathway) enriched in genes that we used as input in g:Profiler (frequently mutated genes).
 
-*	<font color="green">Green edges</font> represent genes in common between 2 pathways (nodes).
+*	edges (lines) represent genes in common between 2 pathways (nodes).
 
 *	A cluster of nodes represent overlapping and related pathways and may represent a common biological process.
 
 *	Clicking on a node will display the genes included in each pathway.
+
+## Goal of this exercise:
+
+We run and save the g:Profiler results using different parameters. 
+An enrichment map represent the result of enrichment analysis as a network where significantly enriched gene-sets that share a lot of genes in common will form identifiable clusters. These visualization of the results as biological themes and will ease the interpretation of the results. 
+
+The goal of this exercise is to learn how to:
+1) upload g:Profiler results into Cytoscape EnrichmentMap to create a map.
+2) upload several results at the same time to create one map and how to distinguish the results.
+3) to compare the differences induced by the use of different parameters at the enrichment map level. 
+
 
 
 ## Start the exercise
 
 To start the lab practical section, first create a gprofiler_files directoty on your computer and download it the files below.
 
-Four files are needed to create the enrichment map for this exercise (please download these files on your computer):
+Four files are needed to create the enrichment maps for this exercise (please download these files on your computer):
 
 Expression: [MesenchymalvsImmunoreactive_RNAseq_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/MesenchymalvsImmunoreactive_RNAseq_expression.txt)
 
