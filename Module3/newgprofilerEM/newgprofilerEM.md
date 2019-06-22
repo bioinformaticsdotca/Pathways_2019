@@ -14,7 +14,7 @@ modified: June 26th, 2018
 
 # Network Visualization and Analysis with Cytoscape: Enrichment Map from g:Profiler results
 
-By Veronique Voisin
+By Veronique Voisin, Ruth Isserlin, Gary Bader
 
 ## Goal of the exercise
 
@@ -135,6 +135,29 @@ On the map, a node that has both green and blue color is a gene-sets that was pr
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem6.png?raw=true" alt="workflow" width="750" />
 
 
+# Explore Detailed results 
+
+ * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Zoom in to be able to read the labels and navigate the network using the bird eye view.
+
+ * Select a node and visualize the *Table Panel*
+   * Click on a node
+
+   * For this example the node *"MESENCHYME DEVELOPMENT"* has been selected. Tip: you can type it in the search bar, quotes are important.
+
+When the node is selected, it is highlighted in <font color="yellow">yellow</font>.
+
+3b. In Table Panel:
+
+*	Click on the Sort Column on "Ranks Data Set1"
+
+*	Set Expressions to *Row Norm*
+
+* Set Compress to -None- (tip: select the field and use the keyboard arrows up to select it)
+
+You can now visualize the genes in the MESENCHYME DEVELOPMENT pathway that are higher expressed in the mesenchymal samples when compared to the immunoreactive samples. 
+
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMgprofilerheatmap.png?raw=true"  width="750" />
+
 ## Exercise 1b
 
 Create an enrichment map without a gmt file to compare the results with Exercise 1a.
@@ -153,6 +176,15 @@ Create an enrichment map without a gmt file to compare the results with Exercise
  
  Explore the results:
  
+ In the EnrichmentMap control panel located at the left:
+ * check the 2 Data Sets (checked by default)
+ * set Chart Data o *Color by Data Set*
+ * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
+ 
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3a.png?raw=true" alt="workflow" width="750" />
+
+On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
+ 
  <img 
  src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />
  
@@ -163,38 +195,7 @@ Create an enrichment map without a gmt file to compare the results with Exercise
 
 
 
-
-<img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMgprofilerinput.png?raw=true"  width="750"/>
- 
-2c. Click on *Build* button at the bottom of the Enrichment Map Input panel.
-
-Unformatted results
-
-![EM18](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM18v2.png?raw=true) 
-
- * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Zoom in to be able to read the labels and navigate the network using the bird eye view.
-
-## Step 3 
-
-Select a node and visualize the *Table Panel*
-
-3a. Click on a node
-
-For this example the node *"MESENCHYME DEVELOPMENT"* has been selected. Tip: you can type it in the search bar, quotes are important.
-
-When the node is selected, it is highlighted in <font color="yellow">yellow</font>.
-
-3b. In Table Panel:
-
-*	Click on the Sort Column on "Ranks Data Set1"
-
-*	Set Expressions to *Row Norm*
-
-* Set Compress to -None- (tip: select the field and use the keyboard arrows up to select it)
-
-You can now visualize the genes in the MESENCHYME DEVELOPMENT pathway that are higher expressed in the mesenchymal samples when compared to the immunoreactive samples. 
-
- <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMgprofilerheatmap.png?raw=true"  width="750" />
+#
 
 ## OPTIONAL
  
