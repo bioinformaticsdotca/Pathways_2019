@@ -121,14 +121,23 @@ gProfiler_hsapiens_gs250.gem.txt.
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3.png?raw=true" alt="workflow" width="750" />
 
 
-Explore the results:
+## Step3: Explore the results:
+
+In the EnrichmentMap control panel located at the left:
+ * check the 2 Data Sets (checked by default)
+ * set Chart Data o *Color by Data Set*
+ * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
+ 
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />'
+
+On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
 
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />'
 
 
-## Step 3
+## Exercise 1b
 
-Create an enrichment map with a gmt file 
+Create an enrichment map without a gmt file .
 
 
 
