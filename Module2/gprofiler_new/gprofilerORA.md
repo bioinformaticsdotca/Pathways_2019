@@ -255,7 +255,9 @@ STEPS:
 #################################################
 ### Optional steps ####
 
-Here below are 3 optional steps that are covering several options offered by g:Profiler: option to test different databases, to take the order of the gene list into account and the choice between differenttypes of multiple hypothesis correction methods.
+Please follow these optional steps if time permits and/or to explore more g:Profiler parameters.
+
+Here below are 3 optional steps that are covering several options offered by g:Profiler: option to test different databases, to take the order of the gene list into account and the choice between different types of multiple hypothesis correction methods.
 
 USe the same gene list as for exercise 1 and modify paramters listed in the 3 optional steps. Observe the results. 
 
