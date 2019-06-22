@@ -42,11 +42,11 @@ Pathway enrichment analysis has been run using g:Profiler and the results have b
 ## Description of this exercise
 
 We run and save the g:Profiler results using different parameters. 
-An enrichment map represent the result of enrichment analysis as a network where significantly enriched gene-sets that share a lot of genes in common will form identifiable clusters. These visualization of the results as biological themes and will ease the interpretation of the results. 
+An enrichment map represents the result of enrichment analysis as a network where significantly enriched gene-sets that share a lot of genes in common will form identifiable clusters. The visualization of the results as these biological themes will ease the interpretation of the results. 
 
 The goal of this exercise is to learn how to:
 1) upload g:Profiler results into Cytoscape EnrichmentMap to create a map.
-2) upload several results at the same time to create one map and how to distinguish the results.
+2) upload several g:Profiler results at the same time to create one map and learn how to distinguish the results.
 3) to compare the differences resulting from the use of different g:Profiler parameters at the enrichment map level. 
 
 
