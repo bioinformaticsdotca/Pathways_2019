@@ -64,13 +64,13 @@ Enrichment result 2: [gProfiler_hsapiens_gs250.gem.txt](https://github.com/bioin
 In g:Profiler, the parameters that we used were: GO_BP no electronic annotation, Reactome, Benjamini-HochBerg FDR 0.05. The results were filtered using the g:Profiler Term size slidebar and **only the enriched gene-sets that contain equal or less than 250 genes per gene-set** were included in the result file (gProfiler_hsapiens_gs250.gem.txt).
 
 
-Enrichment result 3: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
+Enrichment result 3: [gProfiler_hsapiens_Baderlab_max250_gem.txt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/gProfiler_hsapiens_Baderlab_max250_gem.txt)
 
 
 Pathway database 1 (.gmt):[hsapiens_GO_REAC.gmt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/hsapiens_GO_REAC.gmt)
 This file has been created by concatenating the hsapiens.GO/BP.name.gm and the hsapiens.REAC.name.gmt files contained in the g:Profiler gprofiler_hsapiens.name folder. 
 
-Pathway database 1 (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
+Pathway database 2 (.gmt):[Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt)
 
 ## Exercise 1a 
 
