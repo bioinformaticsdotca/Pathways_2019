@@ -185,10 +185,11 @@ On the map, a node that has both green and blue color is a gene-sets that was pr
  src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="750" />
  
 
-Conclusion of exercises 1 a and 1b: 
- Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there 2 main beneficials aspects of uploading a gmt file:
- 1) the map will be less condensed and easier to read and interpret. 
- 2) clicking on a node will display genes all genes in the gene-sets and not only genes included in our list. 
+**Conclusion of exercises 1 a and 1b:**
+
+Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there 2 main beneficials aspects of uploading a gmt file:
+ * 1) the map will be less condensed and easier to read and interpret.  
+ * 2) clicking on a node will display genes all genes in the gene-sets and not only genes included in our list. 
 
 
 ## Exercise 1c
