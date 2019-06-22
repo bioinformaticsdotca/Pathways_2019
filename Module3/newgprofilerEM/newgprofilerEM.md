@@ -56,14 +56,14 @@ To start the lab practical section, first create a gprofiler_files directoty on 
 
 Five files are needed to create the enrichment maps for this exercise (please download these files on your computer):
 
-Enrichment result 1: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
+Enrichment result 1: [gProfiler_hsapiens_GEM1.txt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/gProfiler_hsapiens_GEM1.txt)
 
-Enrichment result 2: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
+Enrichment result 2: [gProfiler_hsapiens_gs250.gem.txt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/gProfiler_hsapiens_gs250.gem.txt)
 
 Enrichment result 3: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
 
 
-Pathway database 1 (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
+Pathway database 1 (.gmt):[hsapiens_GO_REAC.gmt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/hsapiens_GO_REAC.gmt)
 
 Pathway database 1 (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
 
