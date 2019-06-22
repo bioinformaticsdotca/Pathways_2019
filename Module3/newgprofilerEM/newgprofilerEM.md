@@ -92,7 +92,7 @@ Launch Cytoscape and open the EnrichmentMap App
 
 ## Step 2
 
-Create an enrichment map from 3 datasets and with no gmt file 
+Create an enrichment map from 2 datasets and with a gmt file.
 
 2a. In the 'Create Enrichment Map window' , drag and drop the 2 enrichment files gProfiler_hsapiens_GEM1.txt and 
 gProfiler_hsapiens_gs250.gem.txt.
@@ -116,6 +116,10 @@ gProfiler_hsapiens_gs250.gem.txt.
 2h. Click on *Build*.
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem2.png?raw=true" alt="workflow" width="750" />
+
+Explore the results:
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3.png?raw=true" alt="workflow" width="750" />
  
 
 ## Step 3
