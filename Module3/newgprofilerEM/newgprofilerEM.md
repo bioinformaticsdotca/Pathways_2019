@@ -97,9 +97,13 @@ Create an enrichment map from 3 datasets and with no gmt file
 2a. In the 'Create Enrichment Map window' , drag and drop the 2 enrichment files gProfiler_hsapiens_GEM1.txt and 
 gProfiler_hsapiens_gs250.gem.txt.
 
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem0.png?raw=true" alt="workflow" width="750" />
+
 2b. In the white box, click on "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) 
 
 2c. On the right side, go to the *GMT* field, click on the 3 radio button (...) and locate the file hsapiens_GO_REAC.gmt that you have saved on your computer to upload it.
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem1.png?raw=true" alt="workflow" width="750" />
 
 2d. In the white box, click on "gProfiler_hsapiens_GEM1 (Generic/gProfiler) 
 
@@ -111,7 +115,7 @@ gProfiler_hsapiens_gs250.gem.txt.
 
 2h. Click on *Build*.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem1.png?raw=true" alt="workflow" width="750" />
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem2.png?raw=true" alt="workflow" width="750" />
  
 
 ## Step 3
