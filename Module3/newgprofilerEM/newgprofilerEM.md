@@ -16,7 +16,7 @@ modified: June 26th, 2018
 
 By Veronique Voisin
 
-## Goal of the exercise:
+## Goal of the exercise
 
 **Create an enrichment map and navigate through the network**
 
@@ -39,7 +39,7 @@ Pathway enrichment analysis has been run using g:Profiler and the results have b
 
 *	Clicking on a node will display the genes included in each pathway.
 
-## Description of this exercise:
+## Description of this exercise
 
 We run and save the g:Profiler results using different parameters. 
 An enrichment map represent the result of enrichment analysis as a network where significantly enriched gene-sets that share a lot of genes in common will form identifiable clusters. These visualization of the results as biological themes and will ease the interpretation of the results. 
