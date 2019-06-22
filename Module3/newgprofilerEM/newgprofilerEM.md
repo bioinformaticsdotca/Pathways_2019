@@ -110,6 +110,8 @@ gProfiler_hsapiens_gs250.gem.txt.
 2g. Select the *Connectivity* slide bar to *sparse*. 
 
 2h. Click on *Build*.
+
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem1.png?raw=true" alt="workflow" width="750" />
  
 
 ## Step 3
