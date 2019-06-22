@@ -47,39 +47,39 @@ An enrichment map represent the result of enrichment analysis as a network where
 The goal of this exercise is to learn how to:
 1) upload g:Profiler results into Cytoscape EnrichmentMap to create a map.
 2) upload several results at the same time to create one map and how to distinguish the results.
-3) to compare the differences induced by the use of different parameters at the enrichment map level. 
-
+3) to compare the differences resulting from the use of different g:Profiler parameters at the enrichment map level. 
 
 
 ## Start the exercise
 
 To start the lab practical section, first create a gprofiler_files directoty on your computer and download it the files below.
 
-Four files are needed to create the enrichment maps for this exercise (please download these files on your computer):
+Five files are needed to create the enrichment maps for this exercise (please download these files on your computer):
 
-Expression: [MesenchymalvsImmunoreactive_RNAseq_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/MesenchymalvsImmunoreactive_RNAseq_expression.txt)
+Enrichment result 1: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
 
-Enrichments: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
+Enrichment result 2: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
 
-Ranks: [MesenchymalvsImmunoreactive_RNAseq_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/MesenchymalvsImmunoreactive_RNAseq_ranks.rnk)
+Enrichment result 3: [gprofiler_results_mesenchymal.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/gprofiler_results_mesenchymal.txt)
 
-Classes: [MesenchymalvsImmunoreactive_RNAseq_classes.cls](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module3_lab/EM_gProfiler_data/MesenchymalvsImmunoreactive_RNAseq_classes.cls)
 
-Pathway database (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
+Pathway database 1 (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
 
-Optional: you could use the g:Profiler result file and the .gmt file you have saved from module 2 but you may get slightly different results as the g:Profiler database has been updated since the creation of these files.
+Pathway database 1 (.gmt):[hsapiens.pathways.NAME.gmt.zip](https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/hsapiens.pathways.NAME.gmt)
+
+## Exercise 1a 
 
 ## Step 1
 
-Launch Cytoscape and open Enrichment Map App
+Launch Cytoscape and open the EnrichmentMap App
 
 1a. Double click on Cytoscape icon
 
-1b. Open Enrichment Map App
+1b. Open EnrichmentMap App
 
 *	In the Cytoscape top menu bar:
 
-  *	Click on Apps -> Enrichment Map
+  *	Click on Apps -> EnrichmentMap
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EM1.png?raw=true"  />
 
@@ -87,9 +87,9 @@ Launch Cytoscape and open Enrichment Map App
 
 ## Step 2
 
-Create an enrichment map
+Create an enrichment map from 3 datasets and with no gmt file 
 
-2a. In the 'Create Enrichment Map window' , click on the '+" plus sign to create a new data set.  
+2a. In the 'Create Enrichment Map window' , drag and drop the 3 enrichment files.  
 
 2b. Specify the following parameters:
 
@@ -99,17 +99,16 @@ Create an enrichment map
 
 * Enrichments: gprofiler_results_mesenchymal.txt TIP: only field that is not optional
 
-*	GMT : hsapiens.pathways.NAME.gmt.zip
 
-*	Ranks - MesenchymalvsImmunoreactive_RNAseq_ranks.rnk TIP: This field is optional but recommended
+## Step 3
 
-*	Expressions - MesenchymalvsImmunoreactive_RNSseq_expression.txt TIP: This field is optional but recommended
-  
- *	Classes - MesenchymalvsImmunoreactive_RNAseq_classes.cls TIP: This field is optional.
- 
- *	Phenotype - In the text boxes type *Mesenchymal* in the "Positive" field.  Mesenchymal will be associated with red nodes because it corresponds to the phenotype in the g:Profiler result (gene list)
+Create an enrichment map with a gmt file 
 
-  *	Set FDR q-value cutoff to 0.0001 TIP: to set threshold to very small numbers select Scientific Notation and set Q-value cut off to 1E-04
+
+
+
+
+
 
 <img src="https://github.com/bioinformaticsdotca/Pathways_2018/blob/master/module3_lab/img/EMgprofilerinput.png?raw=true"  width="750"/>
  
