@@ -56,9 +56,9 @@ Coming soon.
 
   *<font color="#827e9c">Veronique Voisin</font>*
   
-  [Lecture]() 
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1_hlJx_83Noj9Tt7AD0Ax0kmTjT_wWEW8/view?usp=sharing) 
   
-  [Introduction to practical lab](https://drive.google.com/a/bioinformatics.ca/file/d/12o0HZf5Ak7-Y0aG_geebd1CRYG6x15be/view?usp=sharing)  
+  [Introduction to practical lab](https://drive.google.com/a/bioinformatics.ca/file/d/1cN9D6L77rsE-l9ut55tB966A8CFhWwM3/view?usp=sharing)  
 
   [Lab practical part 1 (g:Profiler)](http://bioinformaticsdotca.github.io/Pathways_2019_Module2_Lab-GProfiler)    
 
@@ -70,7 +70,7 @@ Coming soon.
   
  [Lecture part 1]()  
     
- [Lecture part 2]() 
+ [Lecture part 2](https://drive.google.com/a/bioinformatics.ca/file/d/1Eems2200ETVzvD-eOymoP2HgUameinCF/view?usp=sharing) 
  
  ## Module 3 Lab
  
@@ -87,11 +87,11 @@ Coming soon.
 
   *<font color="#827e9c">Robin Haw</font>*
   
-  [Lecture]()   
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1dSZdXv6p30DqoZIFYgX53o2e84fgKamv/view?usp=sharing)   
   
-  [Lab Lecture]()
+  [Lab Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1afXymoPtuLo8R1UyOSrHf2MlcdZ9pDO2/view?usp=sharing)
   
-  [Lab practical](http://bioinformaticsdotca.github.io/pathways_2018_module4_lab)
+  [CHECK - Lab practical](http://bioinformaticsdotca.github.io/pathways_2018_module4_lab)
 
 ##  Module 5: Gene Function Prediction  
 
@@ -110,20 +110,12 @@ Coming soon.
 
 *<font color="#827e9c">Michael Hoffman</font>*
   
-  [Lecture]()
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1o-s4zbmfVnXICsespFrjyJ42ZjTz8dUJ/view?usp=sharing)
   
-  [Lab lecture]()  
+  [Lab lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1Ieg6W0irazZn69jKWopvhcEyLusYHQhy/view?usp=sharing)  
   
   [Lab practical](http://bioinformaticsdotca.github.io/Pathways_2019_Module6_Lab) 
 
-
-## Final Thoughts  
-
-*<font color="#827e9c">Veronique Voisin</font>*   
-
-[Lecture]()  
-
-[Tools and workflows]()  
 
 ## Integrated Assignment
 
