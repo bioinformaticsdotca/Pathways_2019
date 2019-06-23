@@ -16,7 +16,7 @@ Welcome to Pathways and Network Analysis of -Omics Data 2019.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/Pathways_2019_schedule).
 
-**CLASS MATERIALS:** You can download the printed course manual [here]().  
+**CLASS MATERIALS:** You can download the printed course manual [here](https://drive.google.com/a/bioinformatics.ca/file/d/1HcPuiYUJe69w3_0aNpAfhk7DipcacA6r/view?usp=sharing).  
 
 ***
 
