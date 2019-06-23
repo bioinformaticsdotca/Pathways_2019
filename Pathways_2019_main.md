@@ -68,7 +68,7 @@ Coming soon.
 
  *<font color="#827e9c">Gary Bader</font>*  
   
- [Lecture part 1]()  
+ [Lecture part 1](https://drive.google.com/a/bioinformatics.ca/file/d/15yfdApta64_hJw_h0QfRnsn7a_PnLYIh/view?usp=sharing)  
     
  [Lecture part 2](https://drive.google.com/a/bioinformatics.ca/file/d/1Eems2200ETVzvD-eOymoP2HgUameinCF/view?usp=sharing) 
  
@@ -97,7 +97,7 @@ Coming soon.
 
   *<font color="#827e9c">Quaid Morris</font>*
   
-  [Lecture]()
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1Lc9IXnpZeyq_LMqL10C0Igb7C4tzL04m/view?usp=sharing)
   
   [Lab practical - Cytoscape](http://bioinformaticsdotca.github.io/Pathways_2019_Module5_Lab-GeneMania)   
   
