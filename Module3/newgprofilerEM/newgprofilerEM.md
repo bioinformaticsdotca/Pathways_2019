@@ -115,35 +115,47 @@ gProfiler_hsapiens_gs250.gem.txt.
 <img src="./images/gem2.png?raw=true" alt="workflow" width="100%" />
 
 2h. Click on *Build*.
-
-<img src="./images/gem3.png?raw=true" alt="workflow" width="100%" />
-
+  * a status bar should pop up showing progress of the Enrichment map build.
+<p align="center">
+  <img src="./images/gem3.png?raw=true" alt="workflow" width="60%"/>
+</p>
 
 ## Step3: Explore the results:
 
 In the EnrichmentMap control panel located at the left:
-  * check the 2 Data Sets (checked by default)
+  * select the 2 Data Sets (checked by default)
   * set Chart Data o *Color by Data Set*
-  * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
- 
- <img src="./images/gem3a.png?raw=true" alt="workflow" width="100%" />
+  * select *Publication Ready* to remove gene-set label to have a global view of the map. 
+  
+ :information_source: Tip: un-select *Publication Ready* when you explore the map in more detail to see the gene-set names. 
 
-On the map, a node that has both green and blue color is a gene-set that was present in the 2 gProfiler result files that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens_gs250.gem. 
+<p align="center">
+   <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
+</p>
+
+On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
+  * A node that is blue is a gene-set that is found only in the file *gProfiler_hsapiens_GEM1* . 
+  * A blue edge represents genes that overlap between gene-sets found in the file *gProfiler_hsapiens_GEM1*.
+  * A green edge represents genes that overlap between gene-sets found in the file gProfiler_hsapiens_gs250.gem. 
 
  <img src="./images/gem6.png?raw=true" alt="workflow" width="100%" />
  
- We can see cluster of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster corresponds to informative terms. Would you have lost information by filtering gene-sets larger than 250 genes?
+ We can see clusters of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster corresponds to informative terms. 
+ 
+ :question: Would you have lost information by filtering gene-sets larger than 250 genes?
 
 
 # Explore Detailed results 
 
-  * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Make sure you have unselected "Publication Ready" in the EnrichmentMap control panel. Zoom in to be able to read the labels and navigate the network using the bird eye view (blue rectangle).
+  * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. <BR>
+  :warning: Make sure you have unselected "Publication Ready" in the EnrichmentMap control panel. 
+  * Zoom in to be able to read the labels and navigate the network using the bird eye view (blue rectangle).
 
   * Select a node and visualize the *Table Panel*
     * Click on a node
    
-    * For this example the node *"Signaling by Notch"* has been selected. Tip: you can type it in the search bar, quotes are important.
-   
+    * For this example the node *"Signaling by Notch"* has been selected. <BR>
+    :information_source: Tip: you can type it in the search bar, quotes are important.   
    
    <img src="./images/gem8.png?raw=true" alt="workflow" width="100%" />
 
@@ -157,14 +169,14 @@ Create an enrichment map without a gmt file to compare the results with Exercise
 
   * Go to Control Panel and select the EnrichmentMap tab. 
   * Click on the "+" sign to re-open the *Create Enrichment Map* window.
- 
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="100%" />
-   
+ <p align="center">
+   <img src="./images/gem7.png?raw=true" alt="workflow" width="50%" />
+  </p> 
   * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
   * Locate the GMT field and delete the file name , leaving it blank.
   * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
   * Locate the GMT field and delete the file name , leaving it blank.
-  * Use same parameters as in exercise 1a: FDR q-value cutoff of 0.001 and Connectivity to sparse.
+  * Use same parameters as in [exercise 1a](#exercise-1a): FDR q-value cutoff of 0.001 and Connectivity to sparse.
   * Click on *Build*
  
   <img src="./images/gem5.png?raw=true" alt="workflow" width="100%" />
@@ -173,22 +185,28 @@ Create an enrichment map without a gmt file to compare the results with Exercise
  Explore the results:
  
  In the EnrichmentMap control panel located at the left:
-  * check the 2 Data Sets (checked by default)
+  * select the 2 Data Sets (selecteded by default)
   * set Chart Data o *Color by Data Set*
-  * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
+  * select *Publication Ready* to remove gene-set label to have a global view of the map. 
+  
+  :information_source: Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  
  <img src="./images/gem3a.png?raw=true" alt="workflow" width="100%" />
 
-On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
+On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
+  * A node that is blue is a gene-set that is found only in the file *gProfiler_hsapiens_GEM1* . 
+  * A blue edge represents genes that overlap between gene-sets found in the file *gProfiler_hsapiens_GEM1*.
+  * A green edge represents genes that overlap between gene-sets found in the file gProfiler_hsapiens_gs250.gem. 
+
  
  <img src="./images/gem4.png?raw=true" alt="workflow" width="100%" />
  
 
 **Conclusion of exercises 1 a and 1b:**
 
-Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there are 2 main beneficial aspects of uploading a gmt file:
+Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there are 2 main beneficial aspects to uploading a gmt file:
   1. the map will be less condensed and easier to read and interpret.  
-  1. clicking on a node will display genes all genes in the gene-sets and not only genes included in our list. 
+  1. clicking on a node will display all genes in the gene-set and not only genes included in our query list. 
 
 
 ## Exercise 1c
@@ -203,9 +221,9 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
   * To create an enrichment map of these results:
    * Go to Control Panel and select the EnrichmentMap tab. 
  * Click on the "+" sign to re-open the *Create Enrichment Map* window.
- 
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="100%" />
-   
+ <p align="center">
+   <img src="./images/gem7.png?raw=true" alt="workflow" width="50%" />
+  </p> 
    
  * In the white box, select the "gProfiler_hsapiens_Baderlab_max250_gem.txt (Generic/gProfiler) file 
  * Locate the GMT field and upload the file "Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt".
