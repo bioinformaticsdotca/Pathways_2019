@@ -169,9 +169,10 @@ Create an enrichment map without a gmt file to compare the results with Exercise
 
   * Go to Control Panel and select the EnrichmentMap tab. 
   * Click on the "+" sign to re-open the *Create Enrichment Map* window.
- <p align="center">
+  <p align="center">
    <img src="./images/gem7.png?raw=true" alt="workflow" width="50%" />
   </p> 
+  
   * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
   * Locate the GMT field and delete the file name , leaving it blank.
   * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
@@ -191,8 +192,9 @@ Create an enrichment map without a gmt file to compare the results with Exercise
   
   :information_source: Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  <p align="center">
- <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
-</p>
+   <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
+  </p>
+
 On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
   * A node that is blue is a gene-set that is found only in the file *gProfiler_hsapiens_GEM1* . 
   * A blue edge represents genes that overlap between gene-sets found in the file *gProfiler_hsapiens_GEM1*.
