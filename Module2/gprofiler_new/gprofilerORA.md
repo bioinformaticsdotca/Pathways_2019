@@ -36,7 +36,7 @@ g:Profiler performs a gene-set enrichment analysis using a hypergeometric test (
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
+*  [Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt).
 
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
@@ -52,9 +52,9 @@ Open the g:Profiler website at [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost
 
 ### Step 2
 
-Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt)) into the Query field in top-left corner of the screen. 
+Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt)) into the Query field in top-left corner of the screen. 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp1.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp1.png?raw=true" alt="workflow" width="750" />
 
 Note: The gene list can be space-separated or one per line. The organism for the analysis, Homo sapiens, is selected by default. The input list can contain a mix of gene and protein IDs, symbols and accession numbers. Duplicated and unrecognized IDs will be removed automatically, and ambiguous symbols can be refined in an interactive dialogue after submitting the query. 
 
@@ -72,7 +72,7 @@ Adjust parameters.
 
 TIP: if g:Profiler does not return any results increase the threshold (0.1, then 1) to check that g:Profiler is running successfully but there are simply no significant results for your query.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp2.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp2.png?raw=true" alt="workflow" width="750" />
 
 3b. Click on the *Data sources* tab (black rectangle) to expand it.
 
@@ -84,20 +84,20 @@ TIP: if g:Profiler does not return any results uncheck the *No electronic GO ann
 
 * In the *biological pathways* category, check *Reactome*.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp3.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp3.png?raw=true" alt="workflow" width="750" />
 
 
 ### Step 4
 
 Click on the *Run query* button to run g:Profiler. 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp3a.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp3a.png?raw=true" alt="workflow" width="750" />
 
 Scroll down page to see results. 
 
 TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp4.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp4.png?raw=true" alt="workflow" width="750" />
 
 
 ### Step 5
@@ -109,7 +109,7 @@ After the query has run, the results are displayed at the bottom of the page, be
 By default, the "Results" tab is selected. A global graph displays gene-sets that passed the significance threshold of 0.05 for the 2 gene-set databases that we have selected GO Biological Process "GO:BP" and  Reactome "REAC". Numbers in parentheses are indicating the number of gene-sets that passed the threshold.
 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp5.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp5.png?raw=true" alt="workflow" width="750" />
 
 
 Step5b:
@@ -121,16 +121,16 @@ Click on "Detailed Results" to view the results in more depth. Two tables are di
  * variable number of gene columns (One for each gene in the query set) - If the gene is present in the current gene-set its cell is colored.  For any data source besides GO the cell is colored black if the gene is found in the gene-set.  For the GO data source cells are colored according to the annotation evidence code. Expand the legend tab for detailed coloring mapping of GO evidence codes.  
 The first table displays the gene-sets significantly enriched at FDR 0.05 for the GO:BP database.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp6.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp6.png?raw=true" alt="workflow" width="750" />
 
 The second table displays the results corresponding to the Reactome database.
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp7.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp7.png?raw=true" alt="workflow" width="750" />
 
 ### Step 6: Expand the stats tab
  Expand the *stats* tab by clicking on the double arrow located at the right of the tab.
  
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp7a.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gp7a.png?raw=true" alt="workflow" width="750" />
  
  It displays the gene set size (T), the size of our gene list (Q) , the number of genes that overlap between our gene list and the tested gene-set (TnQ) as well as the number of genes in the background (U). 
  
@@ -138,7 +138,7 @@ The second table displays the results corresponding to the Reactome database.
  * Above the GO:BP result table, locate the slide bar that enables to select for the minimum and maximum number of genes in the tested gene-sets (Term size). 
  * Change the maximum *Term size* from 10000 to **1000** and observe the results in the detailed stats panel:
  
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp8a.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gp8a.png?raw=true" alt="workflow" width="750" />
 
    * Without filtering term size, the top terms were GO terms containing that could contain 4000 or 5000 genes and that were located high in the GO hierarchy (parent term). 
    * With filtering the maximum term size to 1000, the top list contains pathways of larger interpretative values. However, please note that the adjusted pvalues was calculated using all gene-sets without size filtering.
@@ -148,10 +148,10 @@ The second table displays the results corresponding to the Reactome database.
  * 7a.  In the *Detailed Results* panel, select "GEM" .  It will save the results in a text file in the "Generic Enrichment Map" format that we will use to visualize using Cytoscape.
 
    * select max term size to 10000 ( = no filtering by gene-set size) and click on the GEM button. A file is downloaded on your computer. 
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp13.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gp13.png?raw=true" alt="workflow" width="750" />
  
    * select max term size to 1000 ( = filter by gene-set size) and click on the GEM button. A file is downloaded on your computer.
-  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp14.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gp14.png?raw=true" alt="workflow" width="750" />
   
  * 7b:  Open one file that you saved using Microsoft Office Excel or in an equivalent software.
 
@@ -168,7 +168,7 @@ Question: Which term has the best corrected p-value?  Which genes in our list ar
 
 Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the [*generic format*](https://enrichmentmap.readthedocs.io/en/latest/FileFormats.html#generic-results-files). The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
 
-  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp15.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gp15.png?raw=true" alt="workflow" width="750" />
 
 
 The term *positive regulation of activin receptor signaling pathway* is the most significant gene-set (=the lowest FDR value).  Many gene-sets from the top of this list are related to each other and have genes in common. 
@@ -181,7 +181,7 @@ The term *positive regulation of activin receptor signaling pathway* is the most
   * Go to the top of the page and expand the "Data sources" tab. Click on the 'name.gmt' link located at bottom of this tab. It will download a zipped folder named *gprofiler_hsapiens.name.zip* containing several pathway database gmt files. 
 
 
-  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp12.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gp12.png?raw=true" alt="workflow" width="750" />
 
 8b: concatenate the GO:BP and Reactome gmt files:
 
@@ -220,9 +220,9 @@ associated genes in a tab-separated format. This file has been filtered to exlcl
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
+*  [Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt).
 
-*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
+*  [Baderlab_genesets.gmt](./data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
 
 
 
@@ -238,17 +238,17 @@ STEPS:
    * Step 3: Click on the *Data sources* tab (black rectangle) to expand it.
     * **Unselect all choices by clicking the "clear all" button.**
    * Step 4:  Click on the *Custom GMT* tab (black rectangle) to expand it.
-    * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
+    * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](./data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
     * Once uploaded successfully, the name of the file is displayed in the "File name used" box. 
     
-    <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp16.png?raw=true" alt="workflow" width="750" />
+    <img src="./images/gp16.png?raw=true" alt="workflow" width="750" />
    
    * Step 5: Click on *Run  query* .
    
    
    * Step 6: Explore the detailed results
    
-     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp17.png?raw=true" alt="workflow" width="750" />
+     <img src="./images/gp17.png?raw=true" alt="workflow" width="750" />
    
    * Step 7: Save the file as GEM
 
@@ -261,12 +261,12 @@ Here below are 3 optional steps that are covering several options offered by g:P
 
 Use the same gene list as for exercise 1 and modify paramters listed in the 3 optional steps. Observe the results. 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp18.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp18.png?raw=true" alt="workflow" width="750" />
 
 ##**Optional 1**:   
 If time permits, play with input parameters, e.g. add *TRANSFAC * and *miRTarBase* databases, rerun the query and explore the new results.
  
- <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp21.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gp21.png?raw=true" alt="workflow" width="750" />
  
 Note:
 **Transfac**  putative transcription factor binding sites (TFBSs) from TRANSFAC database are retrieved into g:GOSt through a special prediction pipeline. First, TFBSs are found by matching TRANSFAC position specific matrices using the program Match on range +/-1kb from TSS as provided by APPRIS (Annotating principal splice isoforms) via Ensembl biomart. For genes with multiple primary TSS annotations we selected one with most TF matches. The matching range for C. elegans, D. melanogaster and S. cerevisiae is 1kb upstream from ATG (translation start site). A cut-off value to minimize the number of false positive matches (provided by TRANSFAC) is then applied to remove spurious motifs. Remaining matches are split into two inclusive groups based on the amount of matches, i.e TFBSs that have at least 1 match are classified as match class 0 and TFBSs that have at least 2 matches per gene are classified as match class 1.
@@ -278,14 +278,14 @@ Re-run the g:Profiler using the **ordered** query checked. This will run the min
 
 Note: for this practical lab, the genes were ordered by the number of mutations found in these genes for all samples. For example, TP53, a highly mutated genes is listed at the top. 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp20.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp20.png?raw=true" alt="workflow" width="750" />
 
 
 ##**Option 3** :
 
 Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multiple hypothesis testing. Do you get any significant results? 
 
-<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp19.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gp19.png?raw=true" alt="workflow" width="750" />
 
 Note you can get detailed information about these methods at https://biit.cs.ut.ee/gprofiler/page/docs
 in the section *Significance threshold*. 
