@@ -36,7 +36,9 @@ g:Profiler performs a gene-set enrichment analysis using a hypergeometric test (
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt).
+<!--- The data files need to a direct link to the raw format of the file in order for users to be able to download them.  This is an issue when subsequent workshops are created from a previous version by copying the direcotries over.  Ideally all the re-useable data file should be separate in the repository under a data directory so that these links do not need to updated from year to year.--->
+
+*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
 
 We recommend saving all these files in a personal project data folder before starting. We also recommend creating an additional result data folder to save the files generated while performing the protocol.
 
@@ -52,7 +54,7 @@ Open the g:Profiler website at [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost
 
 ### Step 2
 
-Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt)) into the Query field in top-left corner of the screen. 
+Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt)) into the Query field in top-left corner of the screen. 
 
 <img src="./images/gp1.png?raw=true" alt="workflow" width="750" />
 
@@ -220,9 +222,9 @@ associated genes in a tab-separated format. This file has been filtered to exlcl
 
 Before starting this exercise, download the required files:
 
-*  [Supplementary_Table1_Cancer_drivers.txt](./data2/Supplementary_Table1_Cancer_drivers.txt).
+*  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
 
-*  [Baderlab_genesets.gmt](./data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
+*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
 
 
 
