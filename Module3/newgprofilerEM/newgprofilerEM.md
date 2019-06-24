@@ -67,7 +67,7 @@ In g:Profiler, the parameters that we used were: GO_BP no electronic annotation,
 1. Pathway database 1 (.gmt):[hsapiens_GO_REAC.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/hsapiens_GO_REAC.gmt)
 This file has been created by concatenating the hsapiens.GO/BP.name.gm and the hsapiens.REAC.name.gmt files contained in the g:Profiler gprofiler_hsapiens.name folder. 
 
-1. Pathway database 2 (.gmt):[Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/data/Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt)
+1. Pathway database 2 (.gmt):[Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt)
 
 ## Exercise 1a 
 
