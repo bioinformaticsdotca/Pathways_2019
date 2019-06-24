@@ -56,6 +56,8 @@ To start the lab practical section, first create a gprofiler_files directoty on 
 
 Five files are needed for this exercise (please download these files to your computer.  Right click on the file name and save the file to a new directory):
 
+<!--- The data files need to a direct link to the raw format of the file in order for users to be able to download them.  This is an issue when subsequent workshops are created from a previous version by copying the direcotries over.  Ideally all the re-useable data file should be separate in the repository under a data directory so that these links do not need to updated from year to year.--->
+
 1. Enrichment result 1: [gProfiler_hsapiens_GEM1.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/gProfiler_hsapiens_GEM1.txt) 
 In g:Profiler, the parameters that we used were: GO_BP no electronic annotation, Reactome, Benjamini-HochBerg FDR 0.05. 
 
