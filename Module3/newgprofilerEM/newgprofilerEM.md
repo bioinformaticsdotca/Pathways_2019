@@ -94,13 +94,13 @@ Create an enrichment map from 2 datasets and with a gmt file.
 2a. In the 'Create Enrichment Map' window, drag and drop the 2 enrichment files gProfiler_hsapiens_GEM1.txt and 
 gProfiler_hsapiens_gs250.gem.txt.
 
-<img src="./images/gem0.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gem0.png?raw=true" alt="workflow" width="100%" />
 
 2b. In the white box, click on "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) 
 
 2c. On the right side, go to the *GMT* field, click on the 3 radio button (...) and locate the file hsapiens_GO_REAC.gmt that you have saved on your computer to upload it.
 
-<img src="./images/gem1.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gem1.png?raw=true" alt="workflow" width="100%" />
 
 2d. In the white box, click on "gProfiler_hsapiens_GEM1 (Generic/gProfiler) 
 
@@ -110,41 +110,40 @@ gProfiler_hsapiens_gs250.gem.txt.
 
 2g. Select the *Connectivity* slide bar to *sparse*. 
 
+<img src="./images/gem2.png?raw=true" alt="workflow" width="100%" />
+
 2h. Click on *Build*.
 
-<img src="./images/gem2.png?raw=true" alt="workflow" width="750" />
-
-
-<img src="./images/gem3.png?raw=true" alt="workflow" width="750" />
+<img src="./images/gem3.png?raw=true" alt="workflow" width="100%" />
 
 
 ## Step3: Explore the results:
 
 In the EnrichmentMap control panel located at the left:
- * check the 2 Data Sets (checked by default)
- * set Chart Data o *Color by Data Set*
- * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
+  * check the 2 Data Sets (checked by default)
+  * set Chart Data o *Color by Data Set*
+  * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  
- <img src="./images/gem3a.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gem3a.png?raw=true" alt="workflow" width="100%" />
 
 On the map, a node that has both green and blue color is a gene-set that was present in the 2 gProfiler result files that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens_gs250.gem. 
 
- <img src="./images/gem6.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gem6.png?raw=true" alt="workflow" width="100%" />
  
  We can see cluster of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster corresponds to informative terms. Would you have lost information by filtering gene-sets larger than 250 genes?
 
 
 # Explore Detailed results 
 
- * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Make sure you have unselected "Publication Ready" in the EnrichmentMap control panel. Zoom in to be able to read the labels and navigate the network using the bird eye view (blue rectangle).
+  * In the Cytoscape menu bar, select 'View" and 'Show Graphic Details' to display node labels. Make sure you have unselected "Publication Ready" in the EnrichmentMap control panel. Zoom in to be able to read the labels and navigate the network using the bird eye view (blue rectangle).
 
- * Select a node and visualize the *Table Panel*
-   * Click on a node
+  * Select a node and visualize the *Table Panel*
+    * Click on a node
    
-   * For this example the node *"Signaling by Notch"* has been selected. Tip: you can type it in the search bar, quotes are important.
+    * For this example the node *"Signaling by Notch"* has been selected. Tip: you can type it in the search bar, quotes are important.
    
    
-   <img src="./images/gem8.png?raw=true" alt="workflow" width="750" />
+   <img src="./images/gem8.png?raw=true" alt="workflow" width="100%" />
 
 When the node is selected, it is highlighted in <font color="yellow">yellow</font>.
 In table panel, we can see the genes included in the gene-set. A green colored box indicates that the gene is in the gene-set(pathway) and in our gene list. A gray colored box indicated that the gene is in the gene-set but not in our gene list.
@@ -154,33 +153,33 @@ In table panel, we can see the genes included in the gene-set. A green colored b
 
 Create an enrichment map without a gmt file to compare the results with Exercise 1a.
 
- * Go to Control Panel and select the EnrichmentMap tab. 
- * Click on the "+" sign to re-open the *Create Enrichment Map* window.
+  * Go to Control Panel and select the EnrichmentMap tab. 
+  * Click on the "+" sign to re-open the *Create Enrichment Map* window.
  
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="750" />
+   <img src="./images/gem7.png?raw=true" alt="workflow" width="100%" />
    
- * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
- * Locate the GMT field and delete the file name , leaving it blank.
- * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
- * Locate the GMT field and delete the file name , leaving it blank.
- * Use same parameters as in exercise 1a: FDR q-value cutoff of 0.001 and Connectivity to sparse.
- * Click on *Build*
+  * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
+  * Locate the GMT field and delete the file name , leaving it blank.
+  * In the white box, select the "gProfiler_hsapiens_GEM1 (Generic/gProfiler) file 
+  * Locate the GMT field and delete the file name , leaving it blank.
+  * Use same parameters as in exercise 1a: FDR q-value cutoff of 0.001 and Connectivity to sparse.
+  * Click on *Build*
  
-  <img src="./images/gem5.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gem5.png?raw=true" alt="workflow" width="100%" />
  
  
  Explore the results:
  
  In the EnrichmentMap control panel located at the left:
- * check the 2 Data Sets (checked by default)
- * set Chart Data o *Color by Data Set*
- * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
+  * check the 2 Data Sets (checked by default)
+  * set Chart Data o *Color by Data Set*
+  * check *Publication Ready* to remove gene-set label to have a global view of the map. Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  
- <img src="./images/gem3a.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gem3a.png?raw=true" alt="workflow" width="100%" />
 
 On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
  
- <img src="./images/gem4.png?raw=true" alt="workflow" width="750" />
+ <img src="./images/gem4.png?raw=true" alt="workflow" width="100%" />
  
 
 **Conclusion of exercises 1 a and 1b:**
@@ -203,18 +202,18 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
    * Go to Control Panel and select the EnrichmentMap tab. 
  * Click on the "+" sign to re-open the *Create Enrichment Map* window.
  
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="750" />
+   <img src="./images/gem7.png?raw=true" alt="workflow" width="100%" />
    
    
  * In the white box, select the "gProfiler_hsapiens_Baderlab_max250_gem.txt (Generic/gProfiler) file 
  * Locate the GMT field and upload the file "Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt".
   
   
-  <img src="./images/gem9.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gem9.png?raw=true" alt="workflow" width="100%" />
   
  Explore the results:
  
-  <img src="./images/gem10.png?raw=true" alt="workflow" width="750" />
+  <img src="./images/gem10.png?raw=true" alt="workflow" width="100%" />
  
 
 #### :exclamation:	 SAVE YOUR CYTOSCAPE SESSION (.cys) FILE ! ####
