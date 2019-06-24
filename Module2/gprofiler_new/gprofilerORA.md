@@ -56,9 +56,9 @@ Paste the gene list ([Supplementary_Table1_Cancer_drivers.txt](./data2/Supplemen
 
 <img src="./images/gp1.png?raw=true" alt="workflow" width="750" />
 
-Note: The gene list can be space-separated or one per line. The organism for the analysis, Homo sapiens, is selected by default. The input list can contain a mix of gene and protein IDs, symbols and accession numbers. Duplicated and unrecognized IDs will be removed automatically, and ambiguous symbols can be refined in an interactive dialogue after submitting the query. 
+:information_source: Note: The gene list can be space-separated or one per line. The organism for the analysis, Homo sapiens, is selected by default. The input list can contain a mix of gene and protein IDs, symbols and accession numbers. Duplicated and unrecognized IDs will be removed automatically, and ambiguous symbols can be refined in an interactive dialogue after submitting the query. 
 
-Tip: open the file in a simple text editor such as Notepad or Textedit to copy the list of genes.  
+:information_source: Tip: open the file in a simple text editor such as Notepad or Textedit to copy the list of genes.  
 
 ### Step 3
 
@@ -70,7 +70,7 @@ Adjust parameters.
 
 * *User threshold* - select 0.05 if you want g:Profiler to return only pathways that are significant (FDR < 0.05).
 
-TIP: if g:Profiler does not return any results increase the threshold (0.1, then 1) to check that g:Profiler is running successfully but there are simply no significant results for your query.
+:information_source: TIP: if g:Profiler does not return any results increase the threshold (0.1, then 1) to check that g:Profiler is running successfully but there are simply no significant results for your query.
 
 <img src="./images/gp2.png?raw=true" alt="workflow" width="750" />
 
@@ -95,7 +95,7 @@ Click on the *Run query* button to run g:Profiler.
 
 Scroll down page to see results. 
 
-TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
+:information_source: TIP: If after clicking on *Run query* button the analysis completes but there is the following message above results file - *Select the Ensembl ID with the most GO annotations (all)*. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Rerun query.
 
 <img src="./images/gp4.png?raw=true" alt="workflow" width="750" />
 
@@ -164,9 +164,9 @@ Observe the results included in this file:
  1. Phenotype
  1. Genes included in each gene-set
 
-Question: Which term has the best corrected p-value?  Which genes in our list are included in this term? Observe that same genes can be present in several lines (pathways are related when they contain a lof of genes in common).
+:question: Question: Which term has the best corrected p-value?  Which genes in our list are included in this term? Observe that same genes can be present in several lines (pathways are related when they contain a lof of genes in common).
 
-Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the [*generic format*](https://enrichmentmap.readthedocs.io/en/latest/FileFormats.html#generic-results-files). The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
+:information_source: Note: The table is formatted for the input into Cytoscape EnrichmentMap. It is called the [*generic format*](https://enrichmentmap.readthedocs.io/en/latest/FileFormats.html#generic-results-files). The p-value and FDR columns contain identical values because g:Profiler directly outputs the FDR (= corrected p-value) meaning that the p-value column is already the FDR. Phenotype 1 means that each pathway will be represented by red nodes on the enrichment map (presented during next module). 
 
   <img src="./images/gp15.png?raw=true" alt="workflow" width="750" />
 
@@ -200,7 +200,7 @@ The term *positive regulation of activin receptor signaling pathway* is the most
     cat hsapiens.GO:BP.name.gmt hsapiens.REAC.name.gmt > hsapiens.pathways.name.gmt
    ``` 
 
-Note: you will be using this optional hsapiens.pathways.name.gmt file in Cytoscape EnrichmentMap.
+:information_source: Note: you will be using this optional hsapiens.pathways.name.gmt file in Cytoscape EnrichmentMap.
      
 
 ---
@@ -280,7 +280,7 @@ Note:
 ##**Option 2**:
 Re-run the g:Profiler using the **ordered** query checked. This will run the minimum hypergeometric test. g:Profiler then performs incremental enrichment analysis with increasingly larger numbers of genes starting from the top of the list. When this option is checked, **it assumes that the genes were preordered by significance with the most significant gene at the top of the list**. Compare the results between "ordered" and non ordered query.
 
-Note: for this practical lab, the genes were ordered by the number of mutations found in these genes for all samples. For example, TP53, a highly mutated genes is listed at the top. 
+:information_source: Note: for this practical lab, the genes were ordered by the number of mutations found in these genes for all samples. For example, TP53, a highly mutated genes is listed at the top. 
 
 <img src="./images/gp20.png?raw=true" alt="workflow" width="750" />
 
@@ -291,12 +291,12 @@ Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multip
 
 <img src="./images/gp19.png?raw=true" alt="workflow" width="750" />
 
-Note you can get detailed information about these methods at https://biit.cs.ut.ee/gprofiler/page/docs
+:information_source: Note: you can get detailed information about these methods at https://biit.cs.ut.ee/gprofiler/page/docs
 in the section *Significance threshold*. 
 
 ######################################################################
 
-TIP: Instead of using the g:Profiler website g:profiler can be run directly from R or python see g:Profiler document for more info at https://biit.cs.ut.ee/gprofiler/page/r
+:information_source: TIP: Instead of using the g:Profiler website g:profiler can be run directly from R or python see g:Profiler document for more info at https://biit.cs.ut.ee/gprofiler/page/r
 
 
 
