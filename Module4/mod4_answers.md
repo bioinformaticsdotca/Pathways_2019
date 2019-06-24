@@ -1,11 +1,14 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module4_lab_answers
-title: Pathways
+permalink: /Pathways_2019_Module4_lab_answers
+title: Pathways 2019
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 4
-image: /site_images/CBW-CSHL-graphic-square.png
-home: https://bioinformaticsdotca.github.io/pathways_2018
+header2: Pathways and Network Analysis of -Omics Data 2019
+image: /site_images/CBW_pathway_icon.jpg
+home: https://bioinformaticsdotca.github.io/Pathways_2019
+description: Pathways Module 4 Lab
+author: Robin Haw
+modified: June 24, 2019
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
