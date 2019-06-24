@@ -1,11 +1,11 @@
 ---
 layout: tutorial_page
-permalink: /pathways_2018_module4_lab
-title: Pathways
+permalink: /Pathways_2019_Module4_lab
+title: Pathways 2019
 header1: Workshop Pages for Students
-header2: Pathway and Network Analysis of Omics Data Lab 4
+header2: Pathways and Network Analysis of -Omics Data 2019
 image: /site_images/CBW_pathway_icon.jpg
-home: https://bioinformaticsdotca.github.io/pathways_2018
+home: https://bioinformaticsdotca.github.io/Pathways_2019
 description: Pathways Module 4 Lab
 author: Robin Haw
 modified: June 26th, 2018
@@ -82,4 +82,4 @@ o	Hint: Analyze Module Functions>Survival Analysis>Upload/Browse [OVCA_TCGA_Clin
 o	Hint: Click the most statistically significant module link [blue line] from the CoxPH results panel. Click OK. Click #_plot.pdf to display Kaplan-Meyer plot. Repeat this for the other significant module links. KM plot: samples having genes mutated in a module (green line), and samples having no genes mutated in the module (red line).    
 12. Taking into consideration what you have about module 4, what is your hypothesis?
 
-[Answer key](https://bioinformaticsdotca.github.io/pathways_2018_module4_lab_answers)
+[Answer key](https://bioinformaticsdotca.github.io/Pathways_2019_Module4_lab_answers)
