@@ -253,7 +253,8 @@ STEPS:
    
    * Step 7: Save the file as GEM
 
-##########################################################################
+---
+
 ### Optional steps ####
 
 Please follow these optional steps if time permits and/or to explore more g:Profiler parameters.
@@ -294,7 +295,7 @@ Re-run g:Profiler and select g:SCS or Bonferonni as method to correct for multip
 :information_source: Note: you can get detailed information about these methods at https://biit.cs.ut.ee/gprofiler/page/docs
 in the section *Significance threshold*. 
 
-######################################################################
+___
 
 :information_source: TIP: Instead of using the g:Profiler website g:profiler can be run directly from R or python see g:Profiler document for more info at https://biit.cs.ut.ee/gprofiler/page/r
 
