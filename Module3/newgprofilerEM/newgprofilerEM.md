@@ -190,9 +190,9 @@ Create an enrichment map without a gmt file to compare the results with Exercise
   * select *Publication Ready* to remove gene-set label to have a global view of the map. 
   
   :information_source: Tip: uncheck this box when you explore the map in details to see the gene-set names. 
- 
- <img src="./images/gem3a.png?raw=true" alt="workflow" width="100%" />
-
+ <p align="center">
+ <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
+</p>
 On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
   * A node that is blue is a gene-set that is found only in the file *gProfiler_hsapiens_GEM1* . 
   * A blue edge represents genes that overlap between gene-sets found in the file *gProfiler_hsapiens_GEM1*.
