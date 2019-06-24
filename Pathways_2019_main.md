@@ -91,7 +91,7 @@ Coming soon.
   
   [Lab Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1afXymoPtuLo8R1UyOSrHf2MlcdZ9pDO2/view?usp=sharing)
   
-  [CHECK - Lab practical](http://bioinformaticsdotca.github.io/pathways_2018_module4_lab)
+  [CHECK - Lab practical](http://bioinformaticsdotca.github.io/Pathways_2019_Module4_lab)
 
 ##  Module 5: Gene Function Prediction  
 
