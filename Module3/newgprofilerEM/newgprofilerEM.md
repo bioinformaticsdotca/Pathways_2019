@@ -20,7 +20,7 @@ By Veronique Voisin, Ruth Isserlin, Gary Bader
 
 **Create an enrichment map and navigate through the network**
 
-During this exercise, you will learn how to create an EnrichmentMap from gene-set enrichment results. The enrichment tool chosen for this exercise is g:Profiler but an enrichment map can be created from various gene-set tools using the generic format or the more specific GSEA or BinGO interface.
+During this exercise, you will learn how to create an enrichment map from gene-set enrichment results. The enrichment tool chosen for this exercise is g:Profiler but an enrichment map can be created from various gene-set tools using the generic format or the more specific GSEA or BinGO interface.
 
 
 ## Data
@@ -31,7 +31,7 @@ Pathway enrichment analysis has been run using g:Profiler and the results have b
 
 ## EnrichmentMap
 
-*	A circle (node) is a genee-set (pathway) enriched in genes that we used as input in g:Profiler (frequently mutated genes).
+*	A circle (node) is a gene-set (pathway) enriched in genes that we used as input in g:Profiler (frequently mutated genes).
 
 *	edges (lines) represent genes in common between 2 pathways (nodes).
 
@@ -41,7 +41,7 @@ Pathway enrichment analysis has been run using g:Profiler and the results have b
 
 ## Description of this exercise
 
-We run and save the g:Profiler results using different parameters. 
+We run and saved g:Profiler results using different parameters. 
 An enrichment map represents the result of enrichment analysis as a network where significantly enriched gene-sets that share a lot of genes in common will form identifiable clusters. The visualization of the results as these biological themes will ease the interpretation of the results. 
 
 The goal of this exercise is to learn how to:
@@ -130,11 +130,11 @@ In the EnrichmentMap control panel located at the left:
  
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3a.png?raw=true" alt="workflow" width="750" />
 
-On the map, a node that has both green and blue color is a gene-sets that was present in the 2 gProfiler result file that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens)gs250.gem. 
+On the map, a node that has both green and blue color is a gene-set that was present in the 2 gProfiler result files that we have been uploaded. A node that is blue is a gene-set that was present only in the file *gProfiler_hsapiens_GEM1* . A blue edge represents genes that overlap between gene-sets included in the file *gProfiler_hsapiens_GEM1* and a green edge represents genes that overlap between gene-sets included in the file gProfiler_hsapiens_gs250.gem. 
 
  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem6.png?raw=true" alt="workflow" width="750" />
  
- We can see cluster of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster correspond to non informative generic term or if you would have lost information by filtering the gene-set size. 
+ We can see cluster of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster corresponds to informative terms. Would you have lost information by filtering gene-sets larger than 250 genes?
 
 
 # Explore Detailed results 
@@ -189,7 +189,7 @@ On the map, a node that has both green and blue color is a gene-sets that was pr
 
 **Conclusion of exercises 1 a and 1b:**
 
-Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there 2 main beneficials aspects of uploading a gmt file:
+Loading a gmt file to create an enrichment map from g:Profiler result is optional. However, there are 2 main beneficial aspects of uploading a gmt file:
  * 1) the map will be less condensed and easier to read and interpret.  
  * 2) clicking on a node will display genes all genes in the gene-sets and not only genes included in our list. 
 
@@ -197,7 +197,7 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
 ## Exercise 1c
  
  Create an enrichment map from the results of g:Profiler generated using the custom Baderlab gene-set file. 
- To get a map that is easy to read and that does not display too many gene-sets, one option is to focus the analysis on gene-sets (pathways) that contain 250 genes or less. We prefiltered our pathway database prior to upload it into g:Profiler so that FDR is calculated only on these gene-sets ( as opposed to exercise 1a where the FDR was calculated on all gene-sets and then some gene-sets > 250 genes were excluded from the result file.
+ To get a map that is easy to read and that does not display too many gene-sets, one option is to focus the analysis on gene-sets (pathways) that contain 250 genes or less. We prefiltered our pathway database prior to upload it into g:Profiler so that FDR is calculated only on these gene-sets ( as opposed to exercise 1a where the FDR was calculated on all gene-sets and then some gene-sets > 250 genes were excluded from the result file ).
  
   * filtered gmt file: ([Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt](https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/data/Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt)). 
   
