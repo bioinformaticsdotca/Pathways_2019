@@ -54,7 +54,7 @@ The goal of this exercise is to learn how to:
 
 To start the lab practical section, first create a gprofiler_files directoty on your computer and download the files below.
 
-Five files are needed for this exercise (please download these files to your computer):
+Five files are needed for this exercise (please download these files to your computer.  Right click on the file name and save the file to a new directory):
 
 1. Enrichment result 1: [gProfiler_hsapiens_GEM1.txt](./data/gProfiler_hsapiens_GEM1.txt) 
 In g:Profiler, the parameters that we used were: GO_BP no electronic annotation, Reactome, Benjamini-HochBerg FDR 0.05. 
