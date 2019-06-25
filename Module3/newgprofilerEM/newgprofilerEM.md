@@ -24,8 +24,8 @@ During this exercise, you will learn how to create an enrichment map from gene-s
 
 
 ## Data
-
-The data used in this exercise is a list of frequently mutated genes that we used in [previous exercise](../../Module2/gprofiler_new/gprofilerORA.md#data). 
+<!---Absolute path - should be relative but github.io not configured correctly--->
+The data used in this exercise is a list of frequently mutated genes that we used in [previous exercise](https://bioinformaticsdotca.github.io/Pathways_2019_Module2_Lab-GProfiler#data). 
 Pathway enrichment analysis has been run using g:Profiler and the results have been downloaded as a GEM format.
 
 
@@ -85,7 +85,7 @@ Launch Cytoscape and open the EnrichmentMap App
 
   *	Click on Apps -> EnrichmentMap
 
-<img src="../img/EM1.png?raw=true"  />
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/img/EM1.png?raw=true"  />
 
  * A 'Create Enrichment Map' window is now opened.
 
@@ -96,13 +96,13 @@ Create an enrichment map from 2 datasets and with a gmt file.
 2a. In the 'Create Enrichment Map' window, drag and drop the 2 enrichment files gProfiler_hsapiens_GEM1.txt and 
 gProfiler_hsapiens_gs250.gem.txt.
 
-<img src="./images/gem0.png?raw=true" alt="workflow" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem0.png?raw=true" alt="workflow" width="100%" />
 
 2b. In the white box, click on "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) 
 
 2c. On the right side, go to the *GMT* field, click on the 3 radio button (...) and locate the file hsapiens_GO_REAC.gmt that you have saved on your computer to upload it.
 
-<img src="./images/gem1.png?raw=true" alt="workflow" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem1.png?raw=true" alt="workflow" width="100%" />
 
 2d. In the white box, click on "gProfiler_hsapiens_GEM1 (Generic/gProfiler) 
 
@@ -112,12 +112,12 @@ gProfiler_hsapiens_gs250.gem.txt.
 
 2g. Select the *Connectivity* slide bar to *sparse*. 
 
-<img src="./images/gem2.png?raw=true" alt="workflow" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem2.png?raw=true" alt="workflow" width="100%" />
 
 2h. Click on *Build*.
   * a status bar should pop up showing progress of the Enrichment map build.
 <p align="center">
-  <img src="./images/gem3.png?raw=true" alt="workflow" width="60%"/>
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3.png?raw=true" alt="workflow" width="60%"/>
 </p>
 
 ## Step3: Explore the results:
@@ -130,7 +130,7 @@ In the EnrichmentMap control panel located at the left:
  :information_source: Tip: un-select *Publication Ready* when you explore the map in more detail to see the gene-set names. 
 
 <p align="center">
-   <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3a.png?raw=true" alt="workflow" width="70%" />
 </p>
 
 On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
@@ -138,7 +138,7 @@ On the map, a node that is coloured both green and blue is a gene-set that is fo
   * A blue edge represents genes that overlap between gene-sets found in the file *gProfiler_hsapiens_GEM1*.
   * A green edge represents genes that overlap between gene-sets found in the file gProfiler_hsapiens_gs250.gem. 
 
- <img src="./images/gem6.png?raw=true" alt="workflow" width="100%" />
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem6.png?raw=true" alt="workflow" width="100%" />
  
  We can see clusters of blue nodes. All these nodes contain gene-sets that have more than 250 genes. Explore the detailed view (see below) to see if this cluster corresponds to informative terms. 
  
@@ -157,7 +157,7 @@ On the map, a node that is coloured both green and blue is a gene-set that is fo
     * For this example the node *"Signaling by Notch"* has been selected. <BR>
     :information_source: Tip: you can type it in the search bar, quotes are important.   
    
-   <img src="./images/gem8.png?raw=true" alt="workflow" width="100%" />
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem8.png?raw=true" alt="workflow" width="100%" />
 
 When the node is selected, it is highlighted in <font color="yellow">yellow</font>.
 In table panel, we can see the genes included in the gene-set. A green colored box indicates that the gene is in the gene-set(pathway) and in our gene list. A gray colored box indicated that the gene is in the gene-set but not in our gene list.
@@ -170,7 +170,7 @@ Create an enrichment map without a gmt file to compare the results with Exercise
   * Go to Control Panel and select the EnrichmentMap tab. 
   * Click on the "+" sign to re-open the *Create Enrichment Map* window.
   <p align="center">
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="50%" />
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem7.png?raw=true" alt="workflow" width="50%" />
   </p> 
   
   * In the white box, select the "gProfiler_hsapiens_gs250.gem (Generic/gProfiler) file 
@@ -180,7 +180,7 @@ Create an enrichment map without a gmt file to compare the results with Exercise
   * Use same parameters as in [exercise 1a](#exercise-1a): FDR q-value cutoff of 0.001 and Connectivity to sparse.
   * Click on *Build*
  
-  <img src="./images/gem5.png?raw=true" alt="workflow" width="100%" />
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem5.png?raw=true" alt="workflow" width="100%" />
  
  
  Explore the results:
@@ -192,7 +192,7 @@ Create an enrichment map without a gmt file to compare the results with Exercise
   
   :information_source: Tip: uncheck this box when you explore the map in details to see the gene-set names. 
  <p align="center">
-   <img src="./images/gem3a.png?raw=true" alt="workflow" width="70%" />
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem3a.png?raw=true" alt="workflow" width="70%" />
   </p>
 
 On the map, a node that is coloured both green and blue is a gene-set that is found in the both of the 2 gProfiler result sets that we have been uploaded. 
@@ -201,7 +201,7 @@ On the map, a node that is coloured both green and blue is a gene-set that is fo
   * A green edge represents genes that overlap between gene-sets found in the file gProfiler_hsapiens_gs250.gem. 
 
  
- <img src="./images/gem4.png?raw=true" alt="workflow" width="100%" />
+ <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem4.png?raw=true" alt="workflow" width="100%" />
  
 
 **Conclusion of exercises 1 a and 1b:**
@@ -224,18 +224,18 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
    * Go to Control Panel and select the EnrichmentMap tab. 
  * Click on the "+" sign to re-open the *Create Enrichment Map* window.
  <p align="center">
-   <img src="./images/gem7.png?raw=true" alt="workflow" width="50%" />
+   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem7.png?raw=true" alt="workflow" width="50%" />
   </p> 
    
  * In the white box, select the "gProfiler_hsapiens_Baderlab_max250_gem.txt (Generic/gProfiler) file 
  * Locate the GMT field and upload the file "Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt".
   
   
-  <img src="./images/gem9.png?raw=true" alt="workflow" width="100%" />
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem9.png?raw=true" alt="workflow" width="100%" />
   
  Explore the results:
  
-  <img src="./images/gem10.png?raw=true" alt="workflow" width="100%" />
+  <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem10.png?raw=true" alt="workflow" width="100%" />
  
 
 #### :exclamation:	 SAVE YOUR CYTOSCAPE SESSION (.cys) FILE ! ####
