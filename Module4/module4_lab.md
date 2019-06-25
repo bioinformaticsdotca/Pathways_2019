@@ -22,13 +22,13 @@ By Robin Haw
 **Goal:** Analyze gene lists and somatic mutation data to identify biology that contributes to GBM and ovarian cancer.
 
 **Example 1: Pathway-based analysis of GBM genelist**
-Open up Cytoscape.   
-Go to Apps >Reactome FI>Reactome Pathways.    
-Unfurl the “Signal Transduction” events, by clicking the triangle to the left of the event name, in the “Reactome” tab on the left.   
-Click on “Signaling by EGFR” or your favourite pathway.   
-Right-click on highlighted pathway name to display drop-down menu, select “Show Diagram” to display Signaling by EGFR pathway.  
-Right-click on highlighted pathway name to display drop-down menu, select “Analyze Pathway Enrichment”   
-Upload/Browse [GBM_genelist.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/GBM_genelist.txt) into Reactome Pathway Enrichment Analysis, and click “OK”.   
+1. Open up Cytoscape.   
+a. Go to Apps >Reactome FI>Reactome Pathways.    
+b. Unfurl the “Signal Transduction” events, by clicking the triangle to the left of the event name, in the “Reactome” tab on the left.   
+c. Click on “Signaling by EGFR” or your favourite pathway.   
+d. Right-click on highlighted pathway name to display drop-down menu, select “Show Diagram” to display Signaling by EGFR pathway.  
+e. Right-click on highlighted pathway name to display drop-down menu, select “Analyze Pathway Enrichment”   
+f. Upload/Browse [GBM_genelist.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/GBM_genelist.txt) into Reactome Pathway Enrichment Analysis, and click “OK”.   
 
 1.	What are the most significant biological pathways when the FDR Filter is set to 0.05?
 Hint: Right-click on selected pathway in Table Panel, and click “View in Diagram”. Purple-coloured nodes reflect hits in the dataset. Right-click on highlighted nodes to invoke additional features.
