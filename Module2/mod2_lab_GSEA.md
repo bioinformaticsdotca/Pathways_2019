@@ -118,7 +118,7 @@ Load Data
 
 2d. Click on *Choose*. A message pops us when the files are loaded successfully. 
 	<p align="center">
-		<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA4.png?raw=true" alt="Locate files" width="75%" />
+		<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA4.png" alt="Locate files" width="75%" />
 	</p>
 
 2e. Click on *OK*.
