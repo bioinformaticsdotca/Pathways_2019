@@ -262,7 +262,7 @@ STEPS:
    
    * Step 6: Explore the detailed results
    
-     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp17.png?raw=true" alt="workflow" width="100%" />
+     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp17a.png?raw=true" alt="workflow" width="100%" />
    
    * Step 7: Save the file as GEM
 
