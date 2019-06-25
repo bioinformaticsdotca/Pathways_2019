@@ -229,13 +229,13 @@ This file contains pathways from eight data sources: GO, Reactome,
 Panther, NetPath, NCI, MSigDB curated gene sets (C2 collection, excluding Reactome and
 KEGG), MSigDB Hallmark (H collection) and HumanCyc. A GMT file is a text file in which each line
 represents a gene set for a single pathway. Each line includes a pathway ID, a name and the list of
-associated genes in a tab-separated format. This file has been filtered to exlclude gene-sets that contained more than 500 genes as these gene-sets are associated with more general terms.
+associated genes in a tab-separated format. This file has been filtered to exlclude gene-sets that contained more than 250 genes as these gene-sets are associated with more general terms.
 
 Before starting this exercise, download the required files:
 
 *  [Supplementary_Table1_Cancer_drivers.txt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Supplementary_Table1_Cancer_drivers.txt).
 
-*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
+*  [Baderlab_genesets.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module2/gprofiler_new/data2/Human_GOBP_AllPathways_no_GO_iea_June_24_2019_symbol_max250.gmt).
 
 
 
@@ -253,7 +253,7 @@ STEPS:
    * Step 3a: Click on the *Data sources* tab (black rectangle) to expand it.
      * **Unselect all choices by clicking the "clear all" button.**
    * Step 4:  Click on the *Custom GMT* tab (black rectangle) to expand it.
-     * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](./data2/Human_GOBP_AllPathways_no_GO_iea_April_01_2019_symbol_max500.gmt).
+     * Drag in the box the Baderlab gmt file [Baderlab_genesets.gmt](./data2/Human_GOBP_AllPathways_no_GO_iea_June_24_2019_symbol_max250.gmt).
      * Once uploaded successfully, the name of the file is displayed in the "File name used" box. 
     
     <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module2/gprofiler_new/images/gp16.png?raw=true" alt="workflow" width="100%" />
