@@ -68,13 +68,13 @@ The second file that is needed for GSEA is the pathway database, a file with the
 
 :exclamation: You don't need to perform this step for the exercise, the .gmt file will be given to you. 
 	<p align="center">
-		<img src="https://raw.githubusercontent.com/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true" alt="saving_gmt" width="70%" />
+		<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true" alt="saving_gmt" width="70%" />
 	</p>
 
 The .gmt is a tab delimited text file which contains one gene-set per row. For each gene-set (row), the first 2 columns contain the name and the description of the gene-set and the remaining columns contain the list of genes included in the gene-set. It is possible to create a custom gene-set using Excel or R. 
 
 <p align="center">
-		<img src="https://raw.githubusercontent.com/HT-Biology_2017/blob/master/Pathways/img/gmt_format.png?raw=true" alt="get_gmt" width="70%" />
+		<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gmt_format.png?raw=true" alt="get_gmt" width="70%" />
 	</p>
 
 GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov statistic.  The output result consists of summary tables displaying enrichment statistics for each gene-set (pathway) that has been tested.
