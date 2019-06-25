@@ -228,7 +228,9 @@ When examining the results there are a few things to look for:
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA14.png?raw=true" alt="Results2" width="75%" />
 </p>
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true" alt="Results3" width="100%" />
+<p align="center">
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true" alt="Results3" width="75%" />
+</p>
 
 <p align="center">
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA16.png?raw=true" alt="Results4" width="75%" />
