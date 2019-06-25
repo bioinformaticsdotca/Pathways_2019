@@ -216,7 +216,7 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
  Create an enrichment map from the results of g:Profiler generated using the custom Baderlab gene-set file. 
  To get a map that is easy to read and that does not display too many gene-sets, one option is to focus the analysis on gene-sets (pathways) that contain 250 genes or less. We prefiltered our pathway database prior to upload it into g:Profiler so that FDR is calculated only on these gene-sets ( as opposed to exercise 1a where the FDR was calculated on all gene-sets and then some gene-sets > 250 genes were excluded from the result file ).
  
-  * filtered gmt file: ([Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt)). 
+  * filtered gmt file: ([Human_GOBP_AllPathways_no_GO_iea_June_24_2019_symbol_max250gssize.gmt](https://raw.githubusercontent.com/bioinformaticsdotca/Pathways_2019/master/Module3/newgprofilerEM/data/Human_GOBP_AllPathways_no_GO_iea_June_24_2019_symbol_max250gssize.gmt)). 
   
   * We have uploaded this file as a custom gmt file in g:Profiler and run the query. 
   
@@ -228,7 +228,7 @@ Loading a gmt file to create an enrichment map from g:Profiler result is optiona
   </p> 
    
  * In the white box, select the "gProfiler_hsapiens_Baderlab_max250_gem.txt (Generic/gProfiler) file 
- * Locate the GMT field and upload the file "Human_GOBP_AllPathways_no_GO_iea_June_20_2019_symbol_max250gssize.gmt".
+ * Locate the GMT field and upload the file "Human_GOBP_AllPathways_no_GO_iea_June_24_2019_symbol_max250gssize.gmt".
   
   
   <img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Module3/newgprofilerEM/images/gem9.png?raw=true" alt="workflow" width="100%" />
