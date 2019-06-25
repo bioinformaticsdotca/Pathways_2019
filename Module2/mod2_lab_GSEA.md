@@ -123,7 +123,7 @@ Load Data
 
 2e. Click on *OK*.
 	<p align="center">
-		<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA5.png?raw=true" alt="Success" width="75%" />
+		<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA5.png?raw=true" alt="Success" width="75%" />
 	</p>
 	
 :information_source: Tip: Alternatively, you can choose *Method 3* to *drag and drop files here*; you need to click on the *Load these files!* button in this case.
@@ -181,15 +181,15 @@ Run GSEA
 
 4b. On the panel located on the left side of the GSEA window, the bottom panel called *the GSEA report table* will show that it has created a process with a message that it is *Running*.
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA10.png?raw=true" alt="Running" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA10.png?raw=true" alt="Running" width="100%" />
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA11.png?raw=true" alt="Running messages" width="75%" />
+	<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA11.png?raw=true" alt="Running messages" width="75%" />
 	</p>
 
 On completion the status message will be updated to *Success…*.
 	<p align="center">
-	<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA12.png?raw=true" alt="Success" width="75%" />
+	<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA12.png?raw=true" alt="Success" width="75%" />
 	</p>
 
 :information_source: TIP: There is no progress bar to indicate to the user how much time is left to complete the process. Depending on the size of your dataset and compute power a GSEA run can take from a few minutes to a few hours. To check on the status of the GSEA run in the bottom left hand corner you can click on the *+* (red circle in below Figure) to see the updating status. Printouts in the format *shuffleGeneSet for GeneSet 5816/5821 nperm: 1000* indicate how many permutations have been done (5816) out of the total that need to be performed (5821).
@@ -206,7 +206,7 @@ Examining the results
 
 :information_source: TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html. (see screenshot below). The first phenotype corresponds to gene-sets enriched in genes up-regulated in the mesenchymal subtype. The second phenotype corresponds to gene-sets enriched in genes up-regulated in the immunological phenotype. 
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA13.png?raw=true" alt="Results1" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA13.png?raw=true" alt="Results1" width="100%" />
 
 When examining the results there are a few things to look for:
 
@@ -218,21 +218,21 @@ When examining the results there are a few things to look for:
 
 5d. Click on *Snapshots* to see the trend for the top 20 genesets. For the positive phenotype the top genesets should show a distribution skewed to the left (positive) i.e. genesets have predominance of up-regulated genes. For the negative phenotype the top geneset should be inverted and skewed to the right (negative) i.e. geneset have predominance of down-regulated genes.
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA14.png?raw=true" alt="Results2" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA14.png?raw=true" alt="Results2" width="100%" />
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA15.png?raw=true" alt="Results3" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true" alt="Results3" width="100%" />
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA16.png?raw=true" alt="Results4" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA16.png?raw=true" alt="Results4" width="100%" />
 
 5e. Explore the tabular format of the results.
 
 #### Mesenchymal
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA17.png?raw=true" alt="Mesenchymal" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA17.png?raw=true" alt="Mesenchymal" width="100%" />
 
 #### Immunoreactive
 
-<img src="https://raw.githubusercontent.com/HT-Biology_2017/tree/master/Pathways/img/ORA18.png?raw=true" alt="Immunoreactive" width="100%" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA18.png?raw=true" alt="Immunoreactive" width="100%" />
 
 [Link to information about GSEA results](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA#GSEA_enrichment_scores_and_statistics)
 
