@@ -50,7 +50,7 @@ Coming soon.
 
   *<font color="#827e9c">Gary Bader</font>*
   
-  [Lecture]()
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1mAdixP7ULnFGiZn-pVd8vM5Keau_O9TE/view?usp=sharing)
     
 ##  Module 2 Finding Over-Represented Pathways 
 
