@@ -93,7 +93,7 @@ It is in your best interest to complete these before the workshop.
   
   [Lab Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1afXymoPtuLo8R1UyOSrHf2MlcdZ9pDO2/view?usp=sharing)
   
-  [CHECK - Lab practical](http://bioinformaticsdotca.github.io/Pathways_2019_Module4_lab)
+  [Lab practical](http://bioinformaticsdotca.github.io/Pathways_2019_Module4_lab)
 
 ##  Module 5: Gene Function Prediction  
 
