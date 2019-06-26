@@ -38,7 +38,7 @@ It is in your best interest to complete these before the workshop.
 
 # Class photo
 
-Coming soon.
+<img src="https://github.com/bioinformaticsdotca/Pathways_2019/blob/master/Pathways2019_ClassPhoto.jpg?raw=true" alt="Class Photo" width="750" />
 
 ***  
 
