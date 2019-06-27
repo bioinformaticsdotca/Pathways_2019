@@ -53,7 +53,7 @@ Hint: Right-click on selected pathway in Table Panel, and click “View in Diagr
 8.	What are the most significant pathway gene sets in Module 0, 1, 2?  
   a.	Hint: You don’t need to list them all!   
 
-**Example 2: Network-based analysis of OvCa somatic mutation**   
+**Example 3: Network-based analysis of OvCa somatic mutation**   
 1.	Open up Cytoscape.   
   a.	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
   b.	Choose “2018 (Latest)” Version.   
